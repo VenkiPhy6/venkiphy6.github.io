@@ -20,7 +20,7 @@
     
     <title>meta · Welcome to Venkiverse</title>
     
-    <link>https://example.com/tags/meta/</link>
+    <link>https://venkiphy6.github.io/tags/meta/</link>
     <description>Recent content in meta · Welcome to Venkiverse</description>
     
     <language>en-us</language>
@@ -33,7 +33,7 @@
     <lastBuildDate>Sun, 18 Sep 2022 03:53:20 -0500</lastBuildDate>
     
     
-    <atom:link href="https://example.com/tags/meta/index.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://venkiphy6.github.io/tags/meta/index.xml" rel="self" type="application/rss+xml"/>
     
     
     <item>
@@ -41,8 +41,8 @@
       <title>Why I started this website</title>
       
       
-      <link>https://example.com/writings/00_origins/</link>
-      <guid>https://example.com/writings/00_origins/</guid>
+      <link>https://venkiphy6.github.io/writings/00_origins/</link>
+      <guid>https://venkiphy6.github.io/writings/00_origins/</guid>
       
       
       <pubDate>Sun, 18 Sep 2022 03:53:20 -0500</pubDate>

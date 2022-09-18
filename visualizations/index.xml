@@ -20,7 +20,7 @@
     
     <title>Visualizations · Welcome to Venkiverse</title>
     
-    <link>https://example.com/visualizations/</link>
+    <link>https://venkiphy6.github.io/visualizations/</link>
     <description>Recent content in Visualizations · Welcome to Venkiverse</description>
     
     <language>en-us</language>
@@ -33,7 +33,7 @@
     <lastBuildDate>Sun, 18 Sep 2022 03:52:50 -0500</lastBuildDate>
     
     
-    <atom:link href="https://example.com/visualizations/index.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://venkiphy6.github.io/visualizations/index.xml" rel="self" type="application/rss+xml"/>
     
     
     <item>
@@ -41,8 +41,8 @@
       <title>WORK IN PROGRESS</title>
       
       
-      <link>https://example.com/visualizations/00_nothing/</link>
-      <guid>https://example.com/visualizations/00_nothing/</guid>
+      <link>https://venkiphy6.github.io/visualizations/00_nothing/</link>
+      <guid>https://venkiphy6.github.io/visualizations/00_nothing/</guid>
       
       
       <pubDate>Sun, 18 Sep 2022 04:53:21 -0500</pubDate>
