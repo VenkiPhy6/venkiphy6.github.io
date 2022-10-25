@@ -1,0 +1,55 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    
+    <title>Tags · Welcome to Venkiverse</title>
+    
+    <link>https://venkiphy6.github.io/tags/</link>
+    <description>Recent content in Tags · Welcome to Venkiverse</description>
+    
+    <language>en-us</language>
+    
+    
+    
+    <copyright>Made with Hugo</copyright>
+    
+    
+    <lastBuildDate>Sun, 18 Sep 2022 03:53:20 -0500</lastBuildDate>
+    
+    
+    <atom:link href="https://venkiphy6.github.io/tags/index.xml" rel="self" type="application/rss+xml"/>
+    
+    
+    <item>
+      
+      <title>meta</title>
+      
+      
+      <link>https://venkiphy6.github.io/tags/meta/</link>
+      <guid>https://venkiphy6.github.io/tags/meta/</guid>
+      
+      
+      <pubDate>Sun, 18 Sep 2022 03:53:20 -0500</pubDate>
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

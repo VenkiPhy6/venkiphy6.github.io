@@ -1,0 +1,84 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    
+    <title>Writings · Welcome to Venkiverse</title>
+    
+    <link>https://venkiphy6.github.io/writings/</link>
+    <description>Recent content in Writings · Welcome to Venkiverse</description>
+    
+    <language>en-us</language>
+    
+    
+    
+    <copyright>Made with Hugo</copyright>
+    
+    
+    <lastBuildDate>Sun, 18 Sep 2022 03:52:50 -0500</lastBuildDate>
+    
+    
+    <atom:link href="https://venkiphy6.github.io/writings/index.xml" rel="self" type="application/rss+xml"/>
+    
+    
+    <item>
+      
+      <title>Why I started this website</title>
+      
+      
+      <link>https://venkiphy6.github.io/writings/00_origins/</link>
+      <guid>https://venkiphy6.github.io/writings/00_origins/</guid>
+      
+      
+      <pubDate>Sun, 18 Sep 2022 03:53:20 -0500</pubDate>
+      
+      
+      
+      <description><![CDATA[<p>I started this website with 3 goals in mind. They are, in order:</p>
+<ol>
+<li>I want to develop a writing practice.</li>
+<li>I want to develop a visualization practice.</li>
+<li>I want a CV website.</li>
+</ol>
+<p>Well, actually I lied. There is a 4th reason:</p>
+<ol start="4">
+<li>I am taking a class where the professor wanted me to create a Github website for an assignment. This website will be my submission.</li>
+</ol>
+<p>But if 4 was my primary motive, I would&rsquo;ve finished this website creation in an hour or so. I ended up spending <em>(turns chair to look at the clock)</em>, about 7-8 hours, learning to play with Hugo and I am finally writing this post because I value the first 3 goals much more than the 4th one.</p>
+<p>I especially value the first goal. While I have written before, I have not written consistently enough to hone my writing skills systematically. It has always been for one-off reasons like my Master&rsquo;s thesis or an assignment. I hope spending 7-8 hours and creating a website and publicly admitting that I really want to do this will be a good motivating factor to start developing a writing practice. In addition to that, since I am back in college now, I am learning new things every week which gives me a new topic to write about every week. So that reduces the friction further to start practicing.</p>
+<p>One thing I am not sure about is in regards to the word I used earlier - <em>systematically</em>. I don&rsquo;t know how I will systematically get better at writing. In fact I am assuming that is something one can do. Since you are reading this, I hope you will stick around and read what I post to let me know what you think. A feedback loop seems like a good way to know if I am heading in the right direction.</p>
+<p>Another method I have in mind is to note down problems I run into when I am trying to write and notice patterns in those problems. I am assuming that I can approach the writing practice like a computer scientist and reduce the skill of writing to certain classes of problems and then have algorithms in mind to attack those problems. It might be a fool&rsquo;s errand to attempt generalizing something as context specific as writing but I have to start somewhere. I might also be biased to think about writing like a computer scientist would, since the best writing advice I have gotten so far comes from a computer scientist:</p>
+<blockquote>
+<p><em>&quot;&hellip; even if you have only 60 readers, it pays to spend an hour if by doing so you can save your average reader a minute.&quot;</em> &ndash; Edsger W. Dijkstra, <a href="https://www.cs.utexas.edu/users/EWD/transcriptions/EWD13xx/EWD1300.html">EWD1300</a></p>
+</blockquote>
+<p>The one rule I try to maintain, albeit with much difficulty and failing often, is that of <a href="https://www.youtube.com/watch?v=_g-PAvTpmas">Computational kindness</a> (links to video). That has definitely helped me draft good emails with more of a focus on actions the reader needs to take rather than information which they can search when they need instead of reading every word. But I can&rsquo;t clearly see how to apply that idea to longer forms of writing when the whole point of the piece could be to convey information and not to call for action. I think the answer would be along the lines of &lsquo;Edit ruthlessly&rsquo;. But I am not entirely sure how to do that.</p>
+<p>The second goal is to develop a visualization practice. I want to master Tableau. I have used Tableau before, but I have not mastered it. I believe I can tie up goals 1 and 2 together by writing with data visualizations interspersed. I am hoping to read the excellent book, Whole Numbers and Half Truths by Rukmini S, and replicate the visualizations available in that book as a practice exercise. We will see how that goes.</p>
+<p>Atleast, goals 3 and 4 have been achieved (See my <a href="/about">About page</a>). I hope goals 1 and 2 will also be achieved to some extent. After all, to end my first post in this blog in an optimistic note:</p>
+<blockquote>
+<p><em>“Hope” is the thing with feathers -</em></p>
+<p><em>That perches in the soul -</em></p>
+<p><em>And sings the tune without the words -</em></p>
+<p><em>And never stops - at all -</em></p>
+<p>&ndash; &ldquo;Hope&rsquo; is the thing with feathers, Emily Dickinson</p>
+</blockquote>
+]]></description>
+      
+    </item>
+    
+  </channel>
+</rss>
