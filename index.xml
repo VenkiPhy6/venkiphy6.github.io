@@ -50,7 +50,7 @@
       
       
       <description><![CDATA[<p>I did a short analysis of Winston Churchill&rsquo;s &ldquo;Their finest hour&rdquo;. I did this for a class on data collection and production. Here is a word cloud I created from this analysis:</p>
-<p><img src="%E2%80%AAC:%5CHugo%5CSites%5Cvenkiverse%5Cstatic%5CRplot.png" alt=""></p>
+<p><img src="/Rplot.png" alt="Word cloud"></p>
 <p>If you are interested in the code that I used, you can have a look below:</p>
 <pre tabindex="0"><code># Data Method: Text mining
 # File: textmining1.R
