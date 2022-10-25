@@ -38,6 +38,87 @@
     
     <item>
       
+      <title>A word cloud</title>
+      
+      
+      <link>https://venkiphy6.github.io/writings/01_churchill/</link>
+      <guid>https://venkiphy6.github.io/writings/01_churchill/</guid>
+      
+      
+      <pubDate>Tue, 25 Oct 2022 15:39:42 -0500</pubDate>
+      
+      
+      
+      <description><![CDATA[<p>I did a short analysis of Winston Churchill&rsquo;s &ldquo;Their finest hour&rdquo;. I did this for a class on data collection and production. Here is a word cloud I created from this analysis:</p>
+<p><img src="%E2%80%AAC:%5CHugo%5CSites%5Cvenkiverse%5Cstatic%5CRplot.png" alt=""></p>
+<p>If you are interested in the code that I used, you can have a look below:</p>
+<pre tabindex="0"><code># Data Method: Text mining
+# File: textmining1.R
+# Theme: Download text data from web and create wordcloud
+
+# Install the easypackages package 
+install.packages(&#34;easypackages&#34;)
+library(easypackages)
+
+# Load multiple packages using easypackage function &#34;packages&#34;
+packages(&#34;XML&#34;,&#34;wordcloud&#34;,&#34;RColorBrewer&#34;,&#34;NLP&#34;,&#34;tm&#34;,&#34;quanteda&#34;, prompt = T)
+
+# Download text data from website
+churchLocation &lt;-URLencode(&#34;http://www.historyplace.com/speeches/churchill-hour.htm&#34;)
+
+# use htmlTreeParse function to read and parse paragraphs
+doc.html&lt;- htmlTreeParse(churchLocation, useInternal=TRUE)
+church &lt;- unlist(xpathApply(doc.html, &#39;//b&#39;, xmlValue))
+church &lt;- church[-26] #Getting rid of the unnecessary last document
+head(church, 3)
+
+# Vectorize mlk 
+words.vec &lt;- VectorSource(church)
+
+# Check the class of words.vec
+class(words.vec)
+
+# Create Corpus object for preprocessing
+words.corpus &lt;- Corpus(words.vec)
+inspect(words.corpus)
+
+# Turn all words to lower case
+words.corpus &lt;- tm_map(words.corpus, content_transformer(tolower))
+
+# Remove punctuations, numbers
+words.corpus &lt;- tm_map(words.corpus, removePunctuation)
+words.corpus &lt;- tm_map(words.corpus, removeNumbers)
+
+# How about stopwords, then uniform bag of words created
+
+words.corpus &lt;- tm_map(words.corpus, removeWords, stopwords(&#34;english&#34;))
+
+# Create Term Document Matrix
+
+tdm &lt;- TermDocumentMatrix(words.corpus)
+inspect(tdm)
+
+m &lt;- as.matrix(tdm)
+wordCounts &lt;- rowSums(m)
+wordCounts &lt;- sort(wordCounts, decreasing=TRUE)
+head(wordCounts)
+
+# Create Wordcloud
+cloudFrame&lt;-data.frame(word=names(wordCounts),freq=wordCounts)
+
+set.seed(1234)
+wordcloud(cloudFrame$word,cloudFrame$freq)
+wordcloud(names(wordCounts),wordCounts, min.freq=3,random.order=FALSE, max.words=500,scale=c(3,.5), rot.per=0.35,colors=brewer.pal(8,&#34;Dark2&#34;))
+
+
+# Run the program on Winston Churchill&#39;s Finest Hour speech?
+# http://www.historyplace.com/speeches/churchill-hour.htm
+</code></pre>]]></description>
+      
+    </item>
+    
+    <item>
+      
       <title>Why I started this website</title>
       
       
