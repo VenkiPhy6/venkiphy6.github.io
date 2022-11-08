@@ -30,11 +30,133 @@
     <copyright>Made with Hugo</copyright>
     
     
-    <lastBuildDate>Tue, 25 Oct 2022 15:39:42 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 07 Nov 2022 17:38:24 -0600</lastBuildDate>
     
     
     <atom:link href="https://venkiphy6.github.io/tags/6302-assignments/index.xml" rel="self" type="application/rss+xml"/>
     
+    
+    <item>
+      
+      <title>A simple analysis of a Twitter dataset</title>
+      
+      
+      <link>https://venkiphy6.github.io/writings/02_twitter_analysis/</link>
+      <guid>https://venkiphy6.github.io/writings/02_twitter_analysis/</guid>
+      
+      
+      <pubDate>Mon, 07 Nov 2022 17:38:24 -0600</pubDate>
+      
+      
+      
+      <description><![CDATA[<p>I was given an assignment in class to analyze some Twitter data. Here is the prompt from the assignment:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span>1. Use your developer account to extract Joe Biden’s tweets in last three months
+</span></span><span style="display:flex;"><span>2. Analyze the tweet data
+</span></span><span style="display:flex;"><span>   1. Most likes
+</span></span><span style="display:flex;"><span>   2. Most retweets
+</span></span><span style="display:flex;"><span>   3. Most replied
+</span></span><span style="display:flex;"><span>   4. What are the hashtags in above messages 
+</span></span><span style="display:flex;"><span>3. Collect a bag of hashtags for the following topics
+</span></span><span style="display:flex;"><span>   1. Black Lives Matter
+</span></span><span style="display:flex;"><span>   2. PLA Taiwan
+</span></span><span style="display:flex;"><span>   3. COVID vaccines
+</span></span></code></pre></div><p>Below is what I did for this assignment. I started by installing a bunch of packages I needed. Then I authenticated the Twitter developer account I had created.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-R" data-lang="R"><span style="display:flex;"><span><span style="color:#008000">#Installing packages</span>
+</span></span><span style="display:flex;"><span>ptbu=c(<span style="color:#a31515">&#34;rtweet&#34;</span>, <span style="color:#a31515">&#34;dplyr&#34;</span>, <span style="color:#a31515">&#34;tidyverse&#34;</span>,<span style="color:#a31515">&#34;tidytext&#34;</span>,  <span style="color:#a31515">&#34;data.table&#34;</span>, <span style="color:#a31515">&#34;maps&#34;</span>, <span style="color:#a31515">&#34;syuzhet&#34;</span>,<span style="color:#a31515">&#34;lubridate&#34;</span>, <span style="color:#a31515">&#34;tm&#34;</span>)
+</span></span><span style="display:flex;"><span>install.packages(ptbu)
+</span></span><span style="display:flex;"><span>lapply(ptbu, require, character.only = <span style="color:#00f">TRUE</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#008000">#Simple authentication!</span>
+</span></span><span style="display:flex;"><span>auth_setup_default()
+</span></span></code></pre></div><p>After that I extracted all of Joe Biden&rsquo;s tweets from 1 Aug 2022 till the date I had pulled the data (Nov 1, 2022). So three months of Joe Biden&rsquo;s tweets as was mentioned in the prompt 2.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-R" data-lang="R"><span style="display:flex;"><span><span style="color:#008000">#Getting Biden&#39;s timeline (i.e what he has tweeted)</span>
+</span></span><span style="display:flex;"><span>biden_tweets &lt;- get_timeline(<span style="color:#a31515">&#34;939091&#34;</span>, n = 500)
+</span></span><span style="display:flex;"><span><span style="color:#008000">#Filtering to last 3 months&#39; tweets alone</span>
+</span></span><span style="display:flex;"><span>biden_3tweets &lt;- biden_tweets %&gt;% filter(created_at &gt; <span style="color:#a31515">&#39;2022-08-01&#39;</span>) <span style="color:#008000">#Getting last 3 months tweets</span>
+</span></span></code></pre></div><p>Then I sorted the tweets by <code>favorite_count</code> in descending order</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-R" data-lang="R"><span style="display:flex;"><span><span style="color:#008000">#Most favorited</span>
+</span></span><span style="display:flex;"><span>biden_3tweets_favs &lt;- biden_3tweets[order(biden_3tweets$favorite_count, decreasing=T),][c(<span style="color:#a31515">&#34;text&#34;</span>, <span style="color:#a31515">&#34;created_at&#34;</span>, <span style="color:#a31515">&#34;favorite_count&#34;</span>)]
+</span></span><span style="display:flex;"><span>biden_3tweets_favs[1, <span style="color:#a31515">&#34;id_str&#34;</span>][[1]]
+</span></span></code></pre></div><p>From this the most favorited tweet in my dataset turned out to be this one:</p>
+
+    <style type="text/css">
+      .twitter-tweet {
+        font: 14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+        border-left: 4px solid #2b7bb9;
+        padding-left: 1.5em;
+        color: #555;
+      }
+      .twitter-tweet a {
+        color: #2b7bb9;
+        text-decoration: none;
+      }
+      blockquote.twitter-tweet a:hover,
+      blockquote.twitter-tweet a:focus {
+        text-decoration: underline;
+      }
+    </style>
+  <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Donald Trump and MAGA Republicans are a threat to the very soul of this country.</p>&mdash; Joe Biden (@JoeBiden) <a href="https://twitter.com/JoeBiden/status/1565492666120523778?ref_src=twsrc%5Etfw">September 2, 2022</a></blockquote>
+
+<p>Then I sorted the tweets by <code>retweet_count</code> in descending order</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-R" data-lang="R"><span style="display:flex;"><span><span style="color:#008000">#Most retweets</span>
+</span></span><span style="display:flex;"><span>biden_3tweets_rts &lt;- biden_3tweets[order(biden_3tweets$retweet_count, decreasing=T),][c(<span style="color:#a31515">&#34;text&#34;</span>, <span style="color:#a31515">&#34;created_at&#34;</span>, <span style="color:#a31515">&#34;retweet_count&#34;</span>)]
+</span></span><span style="display:flex;"><span>biden_3tweets_rts[1, <span style="color:#a31515">&#34;id_str&#34;</span>][[1]]
+</span></span></code></pre></div><p>From this the most retweeted tweet in my dataset turned out to be this one:</p>
+
+  <blockquote class="twitter-tweet"><p lang="en" dir="ltr">As I’ve said before, no one should be in jail just for using or possessing marijuana.<br><br>Today, I’m taking steps to end our failed approach. Allow me to lay them out.</p>&mdash; President Biden (@POTUS) <a href="https://twitter.com/POTUS/status/1578097875480895489?ref_src=twsrc%5Etfw">October 6, 2022</a></blockquote>
+
+<p>I tried to repeat this same exercise with <code>reply_count</code> but the dataset just had <code>NA</code> in the entire column. I am unsure why the Twitter API responded with nothing in this column. This is a good example of the unreliability of API methods - you are always at the mercy of whichever organizations controls that API!</p>
+<p>Then I tried to obtain hashtags from these tweets.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-R" data-lang="R"><span style="display:flex;"><span>lapply(head(biden_3tweets_favs, 50)[<span style="color:#a31515">&#39;text&#39;</span>], function(elt) str_extract(elt, regex(<span style="color:#a31515">&#39;#[a-zA-Z0-9_]+&#39;</span>)))
+</span></span></code></pre></div><p>To my surprise I got nothing. I checked Joe Biden&rsquo;s twitter timeline and saw that he never uses hashtags! I am not sure why this is the case. Anyways, with that prompt 2 is done. Moving on to prompt 3&hellip;</p>
+<p>For prompt 1, I pulled the timeline of a specific user. Now I need to pull tweets based on the keywords provided.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-R" data-lang="R"><span style="display:flex;"><span><span style="color:#008000">#Pulling tweets</span>
+</span></span><span style="display:flex;"><span>blm &lt;- rtweet::search_tweets(q = <span style="color:#a31515">&#34;Black Lives Matter&#34;</span>, n = 5000, lang = <span style="color:#a31515">&#34;en&#34;</span>, retryonratelimit = <span style="color:#00f">TRUE</span>)
+</span></span><span style="display:flex;"><span>pla &lt;- rtweet::search_tweets(q = <span style="color:#a31515">&#34;PLA Taiwan&#34;</span>, n = 5000, lang = <span style="color:#a31515">&#34;en&#34;</span>, retryonratelimit = <span style="color:#00f">TRUE</span>)
+</span></span><span style="display:flex;"><span>covid &lt;- rtweet::search_tweets(q = <span style="color:#a31515">&#34;COVID vaccines&#34;</span>, n = 5000, lang = <span style="color:#a31515">&#34;en&#34;</span>, retryonratelimit = <span style="color:#00f">TRUE</span>)
+</span></span></code></pre></div><p>Now, to pull hashtags from these datasets, I created a function that uses regexp to extract anything that starts with a pound sign (or <a href="https://www.youtube.com/watch?v=HEVOM0VycMI">octothorpe</a> if you want to sound cool!). The function also cleans things up and returns a tidy vector of hashtags. I proceeded to call the function on my datasets.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-R" data-lang="R"><span style="display:flex;"><span><span style="color:#008000">#Bag of hashtags</span>
+</span></span><span style="display:flex;"><span>hashtag_extractor &lt;- function (tweets) {
+</span></span><span style="display:flex;"><span>  hashtags &lt;- lapply(tweets, function(tweet) str_extract_all(tweet, regex(<span style="color:#a31515">&#39;#[a-zA-Z0-9_]+&#39;</span>)))
+</span></span><span style="display:flex;"><span>  hashtags &lt;- unlist(hashtags, use.names = F, recursive = <span style="color:#00f">TRUE</span>)
+</span></span><span style="display:flex;"><span>  hashtags &lt;- hashtags[!is.na(hashtags)]
+</span></span><span style="display:flex;"><span>  return(hashtags)
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>blm_hashtags &lt;- hashtag_extractor(blm[<span style="color:#a31515">&#39;text&#39;</span>])
+</span></span><span style="display:flex;"><span>pla_hashtags &lt;- hashtag_extractor(pla[<span style="color:#a31515">&#39;text&#39;</span>])
+</span></span><span style="display:flex;"><span>covid_hashtags &lt;- hashtag_extractor(covid[<span style="color:#a31515">&#39;text&#39;</span>])
+</span></span></code></pre></div><p>Now I needed a way to visualize these hashtags. So, <a href="/writings/01_churchill/">like last time</a>, I proceeded to create word clouds.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-R" data-lang="R"><span style="display:flex;"><span><span style="color:#008000">#Word clouds of hashtags</span>
+</span></span><span style="display:flex;"><span>library(easypackages)
+</span></span><span style="display:flex;"><span>packages(<span style="color:#a31515">&#34;wordcloud&#34;</span>,<span style="color:#a31515">&#34;RColorBrewer&#34;</span>,<span style="color:#a31515">&#34;NLP&#34;</span>,<span style="color:#a31515">&#34;tm&#34;</span>,<span style="color:#a31515">&#34;quanteda&#34;</span>, prompt = T)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>cloud_gen &lt;- function(docs){
+</span></span><span style="display:flex;"><span>  words.vec &lt;- VectorSource(docs)
+</span></span><span style="display:flex;"><span>  words.corpus &lt;- Corpus(words.vec)
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>  tdm &lt;- TermDocumentMatrix(words.corpus)
+</span></span><span style="display:flex;"><span>  m &lt;- as.matrix(tdm)
+</span></span><span style="display:flex;"><span>  wordCounts &lt;- rowSums(m)
+</span></span><span style="display:flex;"><span>  wordCounts &lt;- sort(wordCounts, decreasing=<span style="color:#00f">TRUE</span>)
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>  cloudFrame&lt;-data.frame(word=names(wordCounts),freq=wordCounts)
+</span></span><span style="display:flex;"><span>  set.seed(1234)
+</span></span><span style="display:flex;"><span>  wordcloud(names(wordCounts),wordCounts, min.freq=3,random.order=<span style="color:#00f">FALSE</span>, max.words=500,scale=c(3,.5), rot.per=0.35,colors=brewer.pal(8,<span style="color:#a31515">&#34;Dark2&#34;</span>))
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>cloud_gen(blm_hashtags)
+</span></span><span style="display:flex;"><span>cloud_gen(pla_hashtags)
+</span></span><span style="display:flex;"><span>cloud_gen(covid_hashtags)
+</span></span></code></pre></div><p>You can see the results below. From the &ldquo;Black Lives Matter&rdquo; tweets:
+<img src="/blm_wc.png" alt="BLM"></p>
+<p>From the &ldquo;PLA Taiwan&rdquo; tweets:
+<img src="/pla_wc.png" alt=""></p>
+<p>From the &ldquo;COVID vaccines&rdquo; tweets:</p>
+<p><img src="/covid_wc.png" alt=""></p>
+]]></description>
+      
+    </item>
     
     <item>
       
