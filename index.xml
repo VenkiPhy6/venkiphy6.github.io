@@ -344,16 +344,24 @@ wordcloud(names(wordCounts),wordCounts, min.freq=3,random.order=FALSE, max.words
 <p>Hi! I am Venkatesh (pronounced Venn-cut-aesh). Friends calls me Venki (pronounced Venn-key) and this website is the namesake of that nickname. I am currently a Master&rsquo;s student in <a href="https://www.utdallas.edu/fact-sheets/epps/ms-social-data-analytics-and-research/">Social Data Analytics and Research at the University of Texas at Dallas</a>. I have ~2.6 years of work experience at a boutique analytics firm, consulting with Indian fashion retail giants as a data analyst. I am good at SQL, Python and advanced Excel. I have also worked with Bash (mostly awk), Google Apps Script, Git/Github and Hugo (this website is built with it). I am looking forward for a career in Data Analytics/Science, hopefully in an interesting domain. You can find me on <a href="https://www.linkedin.com/in/venkateshutd/">LinkedIn</a> and <a href="https://github.com/venkiphy6">Github</a> (where this website is hosted).</p>
 <p>I am currently looking for internships for Summer 2023 (May 2023-Aug 2023). You can hit me up on LinkedIn if you have any leads.</p>
 <h1 id="cv">CV</h1>
-<h4 id="work-experience">💻Work Experience</h4>
+<h4 id="-work-experience">💻 Work Experience</h4>
+<p><strong>Research Assistant</strong> @ ArtSciLab, University of Texas at Dallas, USA <em>(Oct 2022 – Present)</em></p>
+<ul>
+<li>Inculcate appropriate research design and data collection methodologies in the research projects of the lab</li>
+<li>Kickstart an academic blog on the proceedings of the lab</li>
+</ul>
 <p><strong>Senior Analyst</strong> @ Cartesian Consulting Private Limited, Bangalore, India <em>(June 2019 – Jan 2022)</em></p>
 <ul>
-<li>Led a team of 3 analysts to service the CRM and campaign reporting needs of Indian fashion retail giants</li>
-<li>Developed an ETL pipeline with Bash and SQL alongside a data QC pipeline for an RDBMS with 10M+ customers</li>
-<li>Analyzed the behavior of 10M+ customers to assist in redesigning a retail client’s loyalty program</li>
-<li>Automated marketing campaigns reporting using Google Apps Script &amp; SQL which saved 20 manhours/week</li>
+<li>Analyzed and visualized the behavior of 10M+ customers to assist in redesigning a retail client’s loyalty program</li>
+<li>Prototyped an AI-based Anomaly Detection System for proactive business decision-making for a pitch to the CEO</li>
+<li>Consulted with stakeholders from a cross function team of 10+ members via verbal and written communications</li>
 <li>Awarded ‘Rookie of the year 2019’ and ‘Employee of the year 2020’</li>
 </ul>
-<h4 id="volunteer-experience">📌Volunteer Experience</h4>
+<h4 id="-volunteer-experience">📌 Volunteer Experience</h4>
+<p><strong>Founding Vice President</strong> @ Effective Altruism UT Dallas, University of Texas at Dallas <em>(Oct 2022 – Present)</em></p>
+<ul>
+<li>Organize community events to discuss the ideas of ‘Effective Altruism’ including ‘Cause prioritization’ and ‘Longtermism’</li>
+</ul>
 <p><strong>Volunteer Facilitator</strong> @ Centre for Effective Altruism, EA Virtual Program <em>(April 2022 – May 2022)</em></p>
 <ul>
 <li>Facilitated discussions for 8 weeks on Effective Altruism and received a 94% positive rating from participants</li>
@@ -382,7 +390,12 @@ wordcloud(names(wordCounts),wordCounts, min.freq=3,random.order=FALSE, max.words
 <li>Applied Graphlet techniques to understand the structure of the isolated network</li>
 <li>Used several Python libraries such as Networkx, Numpy, Scipy, Pandas</li>
 <li>Wrote a thesis and received an A grade</li>
-<li>Presented my project findings at the 2019 Conference on Nonlinear Systems and Dynamics, IIT Kanpur, India</li>
+<li>Published in Springer Proceedings (See Notable Writings below)</li>
+</ul>
+<h4 id="-notable-writings">✍️ Notable Writings</h4>
+<ul>
+<li>Khasim, A., Subramanian, V., Ajith, K.M., Shajahan, T.K. (2022). Structure of Protein Interaction Network Associated With Alzheimer’s Disease Using Graphlet Based Techniques. In: Banerjee, S., Saha, A. (eds) Nonlinear Dynamics and Applications. Springer Proceedings in Complexity. Springer, Cham. <a href="https://doi.org/10.1007/978-3-030-99792-2_42">https://doi.org/10.1007/978-3-030-99792-2_42</a></li>
+<li>Venkatesh (2022, March 29). Interpreting the Systemistas-Randomistas debate on development strategy. <em>Effective Altruism Forum</em>. <a href="https://forum.effectivealtruism.org/posts/N4HnkJSaD98DnD4kK/interpreting-the-systemistas-randomistas-debate-on">https://forum.effectivealtruism.org/posts/N4HnkJSaD98DnD4kK/interpreting-the-systemistas-randomistas-debate-on</a></li>
 </ul>
 <h4 id="-languages">🗣️ Languages</h4>
 <p>Tamizh (Native), English (Advanced), Hindi (Intermediate), Française (Beginner)</p>
