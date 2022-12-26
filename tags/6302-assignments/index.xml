@@ -30,11 +30,31 @@
     <copyright>Made with Hugo</copyright>
     
     
-    <lastBuildDate>Mon, 07 Nov 2022 17:38:24 -0600</lastBuildDate>
+    <lastBuildDate>Fri, 09 Dec 2022 17:32:24 -0600</lastBuildDate>
     
     
     <atom:link href="https://venkiphy6.github.io/tags/6302-assignments/index.xml" rel="self" type="application/rss+xml"/>
     
+    
+    <item>
+      
+      <title>Project: Network Structure of the Digital Advertising Marketplace</title>
+      
+      
+      <link>https://venkiphy6.github.io/writings/03_admapper/</link>
+      <guid>https://venkiphy6.github.io/writings/03_admapper/</guid>
+      
+      
+      <pubDate>Fri, 09 Dec 2022 17:32:24 -0600</pubDate>
+      
+      
+      
+      <description><![CDATA[<p>I coordinated a project with my classmates (Chun-Yen Pan, McKayla Sharp, Sarah Stukalin and Xiaoyan Zhang) for a course on &ldquo;Methods of data collection and production&rsquo;&rsquo;(<a href="https://catalog.utdallas.edu/2021/graduate/courses/epps6302">EPPS 6302</a>). The project culminated in a report which can be read <a href="https://github.com/VenkiPhy6/admapper/blob/main/Admapper_Project_Report.pdf">here</a>. The Github repository containing the data collected in the project and the code used for the data collection and analysis can be found here: <a href="https://github.com/VenkiPhy6/admapper">admapper Github repo</a></p>
+<p>This project involved collating a sample frame of URLs of US news sources followed by scraping data (<code>ads.txt</code>) from these URLs. Then we proceeded to make a graph database on <a href="https://neo4j.com/">Neo4j</a> for scaling up the dataset in the future and finally performed bipartite network analysis using the &lsquo;Method of Reflections&rsquo; technique. A major focus of this class project was directed towards collection, cleaning and creation of the database since the class was on data collection. We also explored the theoretical aspects behind the digital advertising market and explicated it in the report. I am thankful to all my classmates for being patient in working with me on this nuanced subject!</p>
+<p>If you have read my other posts on this blog, you will notice that this project is an extension of my interest in regulation of digital platforms which was kindled somewhere between late 2020 and early 2021, thanks to <a href="https://school.takshashila.org.in/gcpp-technology-policy">the Tech Policy course</a> at the Takshashila Institution. Earlier, in May 2021, I had coordinated a project with the cohort of <a href="https://www.complexityweekend.com/">Complexity Weekend 2021</a> (<a href="https://github.com/BAFurtado">Bernado Furtado</a>, Kishor Acharya among others in the cohort). You can check out the <a href="https://github.com/BAFurtado/albatross">Github repository</a> of that project containing some skeleton code and a presentation that was done in the closing livestream of the Complexity Weekend event <a href="https://www.youtube.com/watch?v=lQWGflw2qcc&amp;list=PL-gMn-lI3siVTB15wkk3XHGce1uM7lOVU&amp;t=5728s">here</a>. That project had a different aim and attempted to create an Agent-Based Model (ABM) to explain digital platforms. It succeeded in creating a very basic version of the ABM. But, this is the first time I have taken a jab at the problem using real world data. Alongside this project, I was also learning Economic Complexity (which I have written about <a href="https://venkiverse.notion.site/An-Introduction-to-Economic-Complexity-70ca4e0b15e44a138cc7701ebf9f2703">here</a>) for the work I was doing at the <a href="https://artscilab.utdallas.edu/">ArtSciLab</a> and ended up stumbling upon the &lsquo;Method of Reflections&rsquo; technique for analyzing bipartite networks which I used in this project. Overall, this project pulled from several past experiences and learnings. I am fairly certain this project will serve as a stepping stone to more work on digital platform regulations in the future!</p>
+]]></description>
+      
+    </item>
     
     <item>
       

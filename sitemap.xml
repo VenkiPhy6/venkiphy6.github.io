@@ -2,26 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://venkiphy6.github.io/other_places/</loc>
+    <lastmod>2022-12-26T11:12:05-05:00</lastmod>
+  </url><url>
+    <loc>https://venkiphy6.github.io/writings/04_econ_complex/</loc>
+    <lastmod>2022-12-13T17:34:13-06:00</lastmod>
+  </url><url>
+    <loc>https://venkiphy6.github.io/</loc>
+    <lastmod>2022-12-13T17:34:13-06:00</lastmod>
+  </url><url>
     <loc>https://venkiphy6.github.io/tags/6302-assignments/</loc>
-    <lastmod>2022-11-07T17:38:24-06:00</lastmod>
+    <lastmod>2022-12-09T17:32:24-06:00</lastmod>
+  </url><url>
+    <loc>https://venkiphy6.github.io/tags/adtech/</loc>
+    <lastmod>2022-12-09T17:32:24-06:00</lastmod>
+  </url><url>
+    <loc>https://venkiphy6.github.io/tags/digital-platforms/</loc>
+    <lastmod>2022-12-09T17:32:24-06:00</lastmod>
+  </url><url>
+    <loc>https://venkiphy6.github.io/tags/economics/</loc>
+    <lastmod>2022-12-09T17:32:24-06:00</lastmod>
+  </url><url>
+    <loc>https://venkiphy6.github.io/tags/network-science/</loc>
+    <lastmod>2022-12-09T17:32:24-06:00</lastmod>
+  </url><url>
+    <loc>https://venkiphy6.github.io/writings/03_admapper/</loc>
+    <lastmod>2022-12-09T17:32:24-06:00</lastmod>
+  </url><url>
+    <loc>https://venkiphy6.github.io/tags/projects/</loc>
+    <lastmod>2022-12-09T17:32:24-06:00</lastmod>
+  </url><url>
+    <loc>https://venkiphy6.github.io/tags/</loc>
+    <lastmod>2022-12-09T17:32:24-06:00</lastmod>
   </url><url>
     <loc>https://venkiphy6.github.io/writings/02_twitter_analysis/</loc>
     <lastmod>2022-11-07T17:38:24-06:00</lastmod>
   </url><url>
-    <loc>https://venkiphy6.github.io/tags/</loc>
-    <lastmod>2022-11-07T17:38:24-06:00</lastmod>
-  </url><url>
-    <loc>https://venkiphy6.github.io/</loc>
-    <lastmod>2022-11-07T17:38:24-06:00</lastmod>
-  </url><url>
     <loc>https://venkiphy6.github.io/writings/01_churchill/</loc>
     <lastmod>2022-10-25T15:39:42-05:00</lastmod>
-  </url><url>
-    <loc>https://venkiphy6.github.io/lovely_stuff/</loc>
-    <lastmod>2022-09-18T11:12:05-05:00</lastmod>
-  </url><url>
-    <loc>https://venkiphy6.github.io/visualizations/00_nothing/</loc>
-    <lastmod>2022-09-18T04:53:21-05:00</lastmod>
   </url><url>
     <loc>https://venkiphy6.github.io/tags/meta/</loc>
     <lastmod>2022-09-18T03:53:20-05:00</lastmod>
@@ -29,14 +47,35 @@
     <loc>https://venkiphy6.github.io/writings/00_origins/</loc>
     <lastmod>2022-09-18T03:53:20-05:00</lastmod>
   </url><url>
-    <loc>https://venkiphy6.github.io/visualizations/</loc>
-    <lastmod>2022-09-18T03:52:50-05:00</lastmod>
-  </url><url>
     <loc>https://venkiphy6.github.io/writings/</loc>
     <lastmod>2022-09-18T03:52:50-05:00</lastmod>
   </url><url>
     <loc>https://venkiphy6.github.io/about/</loc>
     <lastmod>2022-09-18T01:06:28-05:00</lastmod>
+  </url><url>
+    <loc>https://venkiphy6.github.io/tags/philosophy/</loc>
+    <lastmod>2022-04-02T13:52:44-06:00</lastmod>
+  </url><url>
+    <loc>https://venkiphy6.github.io/writings/00_5_farm_bill_philosophy/</loc>
+    <lastmod>2022-04-02T13:52:44-06:00</lastmod>
+  </url><url>
+    <loc>https://venkiphy6.github.io/tags/public-policy/</loc>
+    <lastmod>2022-04-02T13:52:44-06:00</lastmod>
+  </url><url>
+    <loc>https://venkiphy6.github.io/writings/00_4_randomistas_systemistas/</loc>
+    <lastmod>2022-03-29T13:52:44-06:00</lastmod>
+  </url><url>
+    <loc>https://venkiphy6.github.io/writings/00_3_adtech_prelim/</loc>
+    <lastmod>2021-03-29T13:52:44-06:00</lastmod>
+  </url><url>
+    <loc>https://venkiphy6.github.io/writings/00_2_mutlilayer_networks/</loc>
+    <lastmod>2020-12-21T13:52:44-06:00</lastmod>
+  </url><url>
+    <loc>https://venkiphy6.github.io/tags/social-platforms/</loc>
+    <lastmod>2020-12-21T13:52:44-06:00</lastmod>
+  </url><url>
+    <loc>https://venkiphy6.github.io/writings/00_1_network_dyn/</loc>
+    <lastmod>2020-12-20T13:52:44-06:00</lastmod>
   </url><url>
     <loc>https://venkiphy6.github.io/categories/</loc>
   </url>

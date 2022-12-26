@@ -1,0 +1,122 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    
+    <title>Social platforms · Welcome to Venkiverse</title>
+    
+    <link>https://venkiphy6.github.io/tags/social-platforms/</link>
+    <description>Recent content in Social platforms · Welcome to Venkiverse</description>
+    
+    <language>en-us</language>
+    
+    
+    
+    <copyright>Made with Hugo</copyright>
+    
+    
+    <lastBuildDate>Mon, 21 Dec 2020 13:52:44 -0600</lastBuildDate>
+    
+    
+    <atom:link href="https://venkiphy6.github.io/tags/social-platforms/index.xml" rel="self" type="application/rss+xml"/>
+    
+    
+    <item>
+      
+      <title>A two-layer network approach to Information Disorder</title>
+      
+      
+      <link>https://venkiphy6.github.io/writings/00_2_mutlilayer_networks/</link>
+      <guid>https://venkiphy6.github.io/writings/00_2_mutlilayer_networks/</guid>
+      
+      
+      <pubDate>Mon, 21 Dec 2020 13:52:44 -0600</pubDate>
+      
+      
+      
+      <description><![CDATA[<p><em>Note: You may notice that this post is dated older than when this website was created. That is because, this is a cross post. I had originally posted this in my old blog <a href="https://venkiisproblematic.blogspot.com/2020/12/a-two-layer-network-approach-to_21.html">here</a>. I am cross-posting it here in the spirit of collecting everything I have written in one place.</em></p>
+<p>Information disorder, popularly referred to by its problematic synonym &ldquo;fake news&rdquo;, is turning out to be a massive problem. Here I try to explain a framework with which I have been contextualizing the various aspects of the problem. I believe there are two layers of networks involved - one of information and another of people - and these two networks have interactions between and within them. I am going to use some jargon on Networks dynamics which I define in my earlier blog <a href="">here</a>. So if the jargon seems foreign, kindly read through that post first.</p>
+<h2 id="the-two-layers-separately">The two layers, separately</h2>
+<p>As aforementioned, I think there are two layers of networks involved in the Information Disorder problem - The Information layer and The People layer.</p>
+<ol>
+<li>The Information layer - In this layer, the nodes are different pieces of information while the edges relate two pieces of information. The different pieces of information on a social network could be posts (aka tweets or threads) and comments (aka retweets). Two pieces of information can be related if their topics are related. Obviously, if one piece of information lead to the other piece being created (like a tweet leading to a retweet) they will be connected since they would be on the same topic.</li>
+<li>The People layer - As the name suggests, this layer is made of people. This is the network that most of us think about when thinking of a social network - nodes are people and edges exist between them if they are acquainted with each other in some abstract way (&lsquo;Friends&rsquo; on Facebook, &lsquo;Followers&rsquo; on Twitter etc.).</li>
+</ol>
+<h2 id="the-two-layers-together">The two layers, together</h2>
+<p>Now that we have established each layer&rsquo;s nodes and the interactions within them, lets think about the interactions between the layers. A user in the People layer and a piece of information in the Information layer are connected if the user engages (creates, shares, likes etc.) with the piece of information. This interaction now creates a new type of edge within both the layers. In addition to the edges that are native to the Information layer, due to the interactions between the layers, a new type of edge is formed if the one user in the People layer engages with two different pieces of information. Similarly, in addition to the native edges of the People layer, the inter-layer interactions creates a new type of edge in that layer, if a piece of information is engaged with by two different users.</p>
+<p>The complicatedness of the problem should already be clear given the structure of the interactions between and within these two layers I have put down so far. (See my crude depiction of the explanation so far if you are unclear). But the fun doesn&rsquo;t stop there! One needs to think about the dynamics involved now.</p>
+<img src='/IDLayers.jpg' style="zoom: 14%;" align='center'/>
+<p>In the People layer, dynamics <em>of</em> the network plays out, if a new person joins the network or existing people leave it or people make new friends or unfriend existing ones. In the Information layer, it plays out, if a new piece of information is created or a piece of information is retracted or one piece of information suddenly gets new context relating it to other pieces of information. So dynamics <em>of</em> the networks is straight forward in that it happens independent of the other layer. But the astute reader would have noticed a small nuance in the dynamics <em>of</em> the Information layer - how exactly can a piece of information be retracted? I will come to this later.</p>
+<p>This is not the case for dynamics <em>on</em> the networks. In the Information layer, popularity diffuses through the network due to the non native edges created between two pieces of information even if the two pieces of news are seemingly unrelated. In the People layer, information gets debated though the non native edges created between two people who are actually not acquainted with each other at all. This dynamics is a bit more complicated than the dynamics <em>of</em> the networks here, since it depends on the edges created by interlayer interactions. But, and this you will recognize is a refrain in Information Disorder literature&hellip; it gets more complicated.</p>
+<p>Now consider a user who has created a piece of content or is particularly passionate about one. To increase its popularity they could create bots in the People layer that are subscribed to their favourite piece of content in addition to other pieces of content that are more popular than their own and hence create artificial non native edges in the information layer, hence spreading its popularity. Here dynamics <em>of</em> the network in one layer ended up creating dynamics <em>on</em> the other layer&rsquo;s network. This is a case of hybrid dynamics. There are several other examples of hybrid dynamics playing out. I leave it to you as a thought exercise to imagine them.</p>
+<h2 id="contextualizing-the-problem-using-the-two-layer-framework">Contextualizing the problem using the two layer framework</h2>
+<p>Lets now try to use these two layers to contextualize the solutions that are typically proposed to solve for Information Disorder. As I alluded to in the first blog, critical thinking/media literacy efforts focus on affecting dynamics <em>on</em> the People layer. When platforms put labels on posts (like &lsquo;This claim is disputed&rsquo;), they are trying to acknowledge the fact that a given piece of information may not be trending on its own merits but rather because of the artificial non native edges or the interlayer interactions and hence they affect the dynamics <em>on</em> the Information layer. Proposals to split up big social media firms try to address the dynamics <em>of</em> the People layer, with the (in my opinion, unrealistic) hope that competition created will make the size of the People layer on a given platform small. Calls to ban certain pieces of information address dynamics <em>of</em> the Information layer.</p>
+<p>One can even contextualize other frameworks proposed to think of the problem within this two layer framework. To me, the First Draft&rsquo;s intent-based frame for Information Disorder [1]  seems to be a focus on the people layer. &lsquo;Do people share information amidst themselves to harm each other or lie to each other or neither?&rsquo; seems to be its premise. On the other end of the spectrum, that use the Information Ecosystem as a framework seems to be more of a focus on the Information layer.</p>
+<h2 id="is-it-useful-though">Is it useful, though?</h2>
+<p>So this two layer model puts into context many of the solutions and also other frameworks. But just because a model captures all the aspects of a problem it doesn&rsquo;t mean it needs to be useful to solve it! (See the wonderful Jorge Luis Borges story [2]) Is this too complex of a model to consider for the problem or is it too simple or is it the right amount of complex? I think the answer to this question can be found only if the framework is actually used to research the problem and see if it can help in solutioning. I have seen some literature that effectively use multi layered models for other problems [3]. I am hoping it will be useful here too&hellip; finger crossed.</p>
+<h2 id="references">References</h2>
+<p>[1] C. Wardle and H. Derakhshan, “INFORMATION DISORDER : Toward an interdisciplinary framework for research and policy making Information Disorder Toward an interdisciplinary framework for research and policymaking,” 2017.</p>
+<p>[2] Borges, Jorge Luis. &ldquo;On the exactitude of science. Collected Fictions.&rdquo; <em>Translated by Andrew Hurley. New York: Penguin</em> (1998): 325.</p>
+<p>[3] Poledna, Sebastian, José Luis Molina-Borboa, Serafín Martínez-Jaramillo, Marco Van Der Leij, and Stefan Thurner. &ldquo;The multi-layer network nature of systemic risk and its implications for the costs of financial crises.&rdquo; <em>Journal of Financial Stability</em> 20 (2015): 70-81.</p>
+]]></description>
+      
+    </item>
+    
+    <item>
+      
+      <title>Network Dynamics framework for Social Network problems</title>
+      
+      
+      <link>https://venkiphy6.github.io/writings/00_1_network_dyn/</link>
+      <guid>https://venkiphy6.github.io/writings/00_1_network_dyn/</guid>
+      
+      
+      <pubDate>Sun, 20 Dec 2020 13:52:44 -0600</pubDate>
+      
+      
+      
+      <description><![CDATA[<p><em>Note: You may notice that this post is dated older than when this website was created. That is because, this is a cross post. I had originally posted this in my old blog <a href="https://venkiisproblematic.blogspot.com/2020/12/network-dynamics-framework-for-social.html">here</a>. I am cross-posting it here in the spirit of collecting everything I have written in one place.</em></p>
+<p>Social Networks are all the rage today (in many senses of that phrase). What we once thought would democratise content creation, is now breaking democratic norms. Given the scale of the problems involved, it is becoming increasingly difficult to think of them. Here I have made a humble attempt to do so and make the case for the framework I have been using. I am only beginning to think deeply about this issue so I might be wrong about this and change my mind later but I believe there is some utility to sharing it anyways - even a wrong clock shows the right time twice a day! So here goes nothing&hellip;</p>
+<p>Network theorists classify network dynamics into 3 categories - dynamics <em>on</em> networks, dynamics <em>of</em> networks and hybrid dynamics [1]. I believe we can use a framework with a similar classification to categorize problems relating to social networks and to keep in mind all the dynamics involved before creating solutions.</p>
+<h2 id="terminology">Terminology</h2>
+<p>Since I have begun by throwing around some jargon, I now feel obliged to explain them before proceeding. Feel free to skip it, if you are already familiar. Networks are representations of systems in which multiple agents interact with each other. Each agent in a network is called a node and their interactions are called edges. These nodes and edges can have certain properties attached to them. Let us consider the case of a social network. In this case, each node would be a person and if these two persons interact with each other in some way (for example &lsquo;Comment&rsquo; on a post) they would be connected by edges. Note that if two persons never interacted with each other then there would be no edge connecting them. Property of a user could be &rsquo;number of posts&rsquo;, &rsquo;number of likes&rsquo;, &lsquo;Joining date on the platform&rsquo; etc.. Property of an interaction could be &lsquo;Retweeted&rsquo;, &lsquo;Commented&rsquo;, &lsquo;Liked&rsquo; etc..</p>
+<p>Network dynamics is the study of how a network changes with time. As aforementioned, there are three distinct ways in which network dynamics can play out:</p>
+<ol>
+<li>Dynamics <em>on</em> networks: This is when the number of nodes or edges doesn&rsquo;t change with time but only their properties change. For instance, imagine studying a network of students in a classroom. Typically new students don&rsquo;t join the class or leave it in the middle of a school year. So the number of students (nodes in the network) remains the same. Also if the class is small enough, everyone is at least acquainted with everyone else. So everyone has interacted with each other and so the number of edges is at a maximum and can&rsquo;t change either. Now, in such a network, the dynamics would only be changes in properties of the students themselves such as grades or in properties of their interactions such as friendships, rivalries etc. over the school year. This is an example of dynamics <em>on</em> a network.</li>
+<li>Dynamics <em>of</em> networks: This is when the number of agents and interactions itself changes over time. For instance, when Facebook started out it connected students in difference colleges and continued to grow. Here we have multiple classrooms now starting to get connected together hence creating a possibility for new students (nodes) entering or old students exiting the network. Also there are now students in the network who possibly don&rsquo;t know each other at all creating opportunities for new interactions (edges) in the networks. The patterns of change in the entry/exit of students and the creation/removal of their interactions here, constitutes dynamics <em>of</em>  the network.</li>
+<li>Hybrid dynamics: This is when both the dynamics occur simultaneously. Imagine the splitting up of a political party into two factions. At the beginning, both the factions would have had the same ideology. But over time, the ideology of some of the members started changing and this change made others in the party rethink their&rsquo;s (dynamics on the network), which eventually lead to its split up (dynamics of networks). Similarly, in a merger of companies with two different cultures, the emergence of a unified culture over time is also an example of hybrid dynamics playing out on a network.</li>
+</ol>
+<h2 id="the-framework">The framework</h2>
+<p>With the terminology now clear, here is what the Network Dynamics framework dictates - When we come across a problem in a social network, it is first important to recognize all the dynamics involved. If we focus only on some but not others, in due time we will be forced to confront them too.</p>
+<p>Let us take the example of Information disorder - the problem of spread of mis/dis/malinformation in an online social network. On the face of it, there is an existing network of people and the property of them acquiring some information alone is changing over time. So, it is tempting to categorize this as an example of dynamics <em>on</em> networks. But one could argue that since bots are created (new nodes in the network) to spread the information, there is dynamics <em>of</em> networks also here. This argument could be further strengthened by the point that mis/dis/malinformation often creates heated arguments wherein people who typically wouldn&rsquo;t interact, will now end up interacting which will cause new edges in the network too. So really, the Information disorder problem starts out as dynamics <em>on</em> networks and then causes dynamics <em>of</em> networks. On the whole, there is Hybrid dynamics involved here.</p>
+<p>But say we indulge our initial temptation to only consider the dynamics <em>on</em> the network which causes Information disorder. Then, our only focus will be to change the way people acquire information. For instance, we would recommend that critical thinking is the only solution. But as Danah Boyd says [2], this can backfire. When there is so much information flowing in, some information just needs to be taken for granted if it comes from trusted sources. When people don&rsquo;t do so and keep resorting to extreme critical thinking, the issue simply persists. But why is there so much information flowing in the first place? Well, that is because there are so many new nodes and edges created by dynamics <em>of</em>  networks and we need solutions for that one. And there it is - we started out by just looking at one dynamics and then end up being forced to confront the others as well.</p>
+<p>The same will happen if we start out looking at only dynamics <em>of</em> the network too. I believe the proposal to break up social media platforms like Facebook [3], stems from looking at dynamics <em>of</em> the network alone. First off, Information Economics suggests that social media platforms will simply tend to reach critical mass and so even from the standpoint of dynamics <em>of</em> the network it doesn&rsquo;t make sense - even if we break it up, one of the broken pieces will simply reach critical mass again and become the new Facebook [4]. Secondly, it simply doesn&rsquo;t address Information disorder at all. Even smaller groups can share mis/dis/malinformation and then by creating engagement through inflammatory posts become big. At the end of the day, it is caused by dynamics <em>on</em> networks. There it is again - start with only some of the dynamics in mind and we will be confronted with the others very soon.</p>
+<h2 id="just-a-problems-framework">Just a problems framework</h2>
+<p>I hope the framework makes sense. But as it stands now, it only gives a perspective on the problem. It is still not talking about how to go about solutioning for each of the three dynamics involved. One obvious perspective on the solutions that it brings out is that, it is very easy to have unintended consequences given the potential for hybrid dynamics to play out. But that is as far as it goes for now, in terms of solutions.</p>
+<p>This is where more work is needed - is it possible to come up with some general recommendations for problems of each of the three dynamics? If one can answer that question, then once all the dynamics are recognized in the problem, policies can take multi pronged approaches to solve for each of the dynamics and a holistic proposal can be built. I am going to continue thinking about this and would love to hear your thoughts on the same.</p>
+<h3 id="references">References</h3>
+<p>[1] Sayama, Hiroki. <em>Introduction to the modeling and analysis of complex systems</em>. Open SUNY Textbooks, 2015.</p>
+<p>[2] “danah boyd: How Critical Thinking and Media Literacy Efforts Are ‘Backfiring’ Today | EdSurge News.” [Online]. Available: <a href="https://www.edsurge.com/news/2018-03-07-danah-boyd-how-critical-thinking-and-media-literacy-efforts-are-backfiring-today">https://www.edsurge.com/news/2018-03-07-danah-boyd-how-critical-thinking-and-media-literacy-efforts-are-backfiring-today</a>. [Accessed: 21-Dec-2020].</p>
+<p>[3] “Opinion | It’s Time to Break Up Facebook - The New York Times.” [Online]. Available: <a href="https://www.nytimes.com/2019/05/09/opinion/sunday/chris-hughes-facebook-zuckerberg.html">https://www.nytimes.com/2019/05/09/opinion/sunday/chris-hughes-facebook-zuckerberg.html</a>. [Accessed: 21-Dec-2020].</p>
+<p>[4] “Breaking Up Facebook Won’t Fix Social Media.” [Online]. Available: <a href="https://hbr.org/2020/09/breaking-up-facebook-wont-fix-social-media">https://hbr.org/2020/09/breaking-up-facebook-wont-fix-social-media</a>. [Accessed: 21-Dec-2020].</p>
+]]></description>
+      
+    </item>
+    
+  </channel>
+</rss>

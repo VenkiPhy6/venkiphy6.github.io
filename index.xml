@@ -30,11 +30,81 @@
     <copyright>Made with Hugo</copyright>
     
     
-    <lastBuildDate>Mon, 07 Nov 2022 17:38:24 -0600</lastBuildDate>
+    <lastBuildDate>Tue, 13 Dec 2022 17:34:13 -0600</lastBuildDate>
     
     
     <atom:link href="https://venkiphy6.github.io/index.xml" rel="self" type="application/rss+xml"/>
     
+    
+    <item>
+      
+      <title>My other places</title>
+      
+      
+      <link>https://venkiphy6.github.io/other_places/</link>
+      <guid>https://venkiphy6.github.io/other_places/</guid>
+      
+      
+      <pubDate>Mon, 26 Dec 2022 11:12:05 -0500</pubDate>
+      
+      
+      
+      <description><![CDATA[<p>These are other places (apart from my socials on the home page) where I live on the internet. Whenever I do something worthy on any of these other places, I will cross/linkpost them here. So as long as you follow me here, you should be able to get everything noteworthy that I do.</p>
+<ul>
+<li><a href="https://venkiverse.notion.site/venkiverse/Venki-s-Telescope-52b7f0be214343cfb516f0852a7465b3">My website</a> for hosting blogs I wrote for the ArtSciLab
+<ul>
+<li>This is currently just a Notion blog but hopefully it will become something better soon.</li>
+</ul>
+</li>
+<li><a href="https://forum.effectivealtruism.org/users/venkatesh">My profile</a> on the Effective Altruism forum
+<ul>
+<li>I really like the way Effective Altruists lay out arguments. Now and then I try to profit from the example of it and post something there myself.</li>
+</ul>
+</li>
+<li><a href="https://venkiisproblematic.blogspot.com/">My old blog</a> on Blogspot</li>
+</ul>
+]]></description>
+      
+    </item>
+    
+    <item>
+      
+      <title>Linkpost: An Introduction to Economic Complexity</title>
+      
+      
+      <link>https://venkiphy6.github.io/writings/04_econ_complex/</link>
+      <guid>https://venkiphy6.github.io/writings/04_econ_complex/</guid>
+      
+      
+      <pubDate>Tue, 13 Dec 2022 17:34:13 -0600</pubDate>
+      
+      
+      
+      <description><![CDATA[<p>This is a linkpost to a piece I wrote on <a href="https://venkiverse.notion.site/venkiverse/Venki-s-Telescope-52b7f0be214343cfb516f0852a7465b3">the Telescope blog</a> for the <a href="https://artscilab.utdallas.edu/">ArtSciLab</a>. I have written about Economic Complexity and you can read it here: <a href="https://venkiverse.notion.site/An-Introduction-to-Economic-Complexity-70ca4e0b15e44a138cc7701ebf9f2703"><strong>An Introduction to Economic Complexity</strong></a>. As the abstract of the post says: &ldquo;<em>This blog post explains the theory of Economic Complexity(EC). We detail the construct of EC by laying out its assumptions and predictions. We describe its operationalization by explicating the linear algebraic formulation of the ‘Method of Reflections’. Finally, we critique this rich theory by pointing out its inherent contradiction in lacking micro foundations.</em>&rdquo;</p>
+<p>The piece is supposed to serve as a stepping stone to a project on innovation studies that the lab is working on. So stay tuned for more on this project soon! In the meanwhile we are eager for comments on Economic Complexity. Please DM me on <a href="https://www.linkedin.com/in/venkateshutd/">my LinkedIn</a> or fill in this <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=HR0ojU2c90uxbgMtFd6fbFFp6RTTwdBOlvC4vy99nI1UMkw0VEtHQlhJVzZNR1ZVODRIUk9RQTQzWi4u">Microsoft form</a> to share any feedback.</p>
+]]></description>
+      
+    </item>
+    
+    <item>
+      
+      <title>Project: Network Structure of the Digital Advertising Marketplace</title>
+      
+      
+      <link>https://venkiphy6.github.io/writings/03_admapper/</link>
+      <guid>https://venkiphy6.github.io/writings/03_admapper/</guid>
+      
+      
+      <pubDate>Fri, 09 Dec 2022 17:32:24 -0600</pubDate>
+      
+      
+      
+      <description><![CDATA[<p>I coordinated a project with my classmates (Chun-Yen Pan, McKayla Sharp, Sarah Stukalin and Xiaoyan Zhang) for a course on &ldquo;Methods of data collection and production&rsquo;&rsquo;(<a href="https://catalog.utdallas.edu/2021/graduate/courses/epps6302">EPPS 6302</a>). The project culminated in a report which can be read <a href="https://github.com/VenkiPhy6/admapper/blob/main/Admapper_Project_Report.pdf">here</a>. The Github repository containing the data collected in the project and the code used for the data collection and analysis can be found here: <a href="https://github.com/VenkiPhy6/admapper">admapper Github repo</a></p>
+<p>This project involved collating a sample frame of URLs of US news sources followed by scraping data (<code>ads.txt</code>) from these URLs. Then we proceeded to make a graph database on <a href="https://neo4j.com/">Neo4j</a> for scaling up the dataset in the future and finally performed bipartite network analysis using the &lsquo;Method of Reflections&rsquo; technique. A major focus of this class project was directed towards collection, cleaning and creation of the database since the class was on data collection. We also explored the theoretical aspects behind the digital advertising market and explicated it in the report. I am thankful to all my classmates for being patient in working with me on this nuanced subject!</p>
+<p>If you have read my other posts on this blog, you will notice that this project is an extension of my interest in regulation of digital platforms which was kindled somewhere between late 2020 and early 2021, thanks to <a href="https://school.takshashila.org.in/gcpp-technology-policy">the Tech Policy course</a> at the Takshashila Institution. Earlier, in May 2021, I had coordinated a project with the cohort of <a href="https://www.complexityweekend.com/">Complexity Weekend 2021</a> (<a href="https://github.com/BAFurtado">Bernado Furtado</a>, Kishor Acharya among others in the cohort). You can check out the <a href="https://github.com/BAFurtado/albatross">Github repository</a> of that project containing some skeleton code and a presentation that was done in the closing livestream of the Complexity Weekend event <a href="https://www.youtube.com/watch?v=lQWGflw2qcc&amp;list=PL-gMn-lI3siVTB15wkk3XHGce1uM7lOVU&amp;t=5728s">here</a>. That project had a different aim and attempted to create an Agent-Based Model (ABM) to explain digital platforms. It succeeded in creating a very basic version of the ABM. But, this is the first time I have taken a jab at the problem using real world data. Alongside this project, I was also learning Economic Complexity (which I have written about <a href="https://venkiverse.notion.site/An-Introduction-to-Economic-Complexity-70ca4e0b15e44a138cc7701ebf9f2703">here</a>) for the work I was doing at the <a href="https://artscilab.utdallas.edu/">ArtSciLab</a> and ended up stumbling upon the &lsquo;Method of Reflections&rsquo; technique for analyzing bipartite networks which I used in this project. Overall, this project pulled from several past experiences and learnings. I am fairly certain this project will serve as a stepping stone to more work on digital platform regulations in the future!</p>
+]]></description>
+      
+    </item>
     
     <item>
       
@@ -241,50 +311,6 @@ wordcloud(names(wordCounts),wordCounts, min.freq=3,random.order=FALSE, max.words
     
     <item>
       
-      <title>An assortment of stuff I love</title>
-      
-      
-      <link>https://venkiphy6.github.io/lovely_stuff/</link>
-      <guid>https://venkiphy6.github.io/lovely_stuff/</guid>
-      
-      
-      <pubDate>Sun, 18 Sep 2022 11:12:05 -0500</pubDate>
-      
-      
-      
-      <description><![CDATA[<p>This is a random assortment of things I love. Many of them are <a href="https://www.notion.so/">Notion</a> pages. This page is a work in progress. On top of it, everything here is in flux - what I love today I may not tomorrow.</p>
-<ul>
-<li><a href="https://amenable-territory-dd5.notion.site/A-random-assortment-of-cool-podcast-stuff-1183df92b1734d99a402e103e3d25d05">A random assortment of cool podcast stuff</a></li>
-<li><a href="https://forum.effectivealtruism.org/users/venkatesh">My profile</a> on the Effective Altruism forum
-<ul>
-<li>I really like the way Effective Altruists lay out arguments. Now and then I try to profit from the example of it and post something there myself.</li>
-</ul>
-</li>
-</ul>
-]]></description>
-      
-    </item>
-    
-    <item>
-      
-      <title>WORK IN PROGRESS</title>
-      
-      
-      <link>https://venkiphy6.github.io/visualizations/00_nothing/</link>
-      <guid>https://venkiphy6.github.io/visualizations/00_nothing/</guid>
-      
-      
-      <pubDate>Sun, 18 Sep 2022 04:53:21 -0500</pubDate>
-      
-      
-      
-      <description><![CDATA[<p>I am working on it!</p>
-]]></description>
-      
-    </item>
-    
-    <item>
-      
       <title>Why I started this website</title>
       
       
@@ -405,6 +431,268 @@ wordcloud(names(wordCounts),wordCounts, min.freq=3,random.order=FALSE, max.words
 <p>That has been my life so far. Fingers crossed for the adventures to come! 😊</p>
 <h1 id="legal-boilerplate">Legal boilerplate</h1>
 <p>Any opinions expressed here are my own and may not reflect the opinions of the organizations I am affiliated with at any point.</p>
+]]></description>
+      
+    </item>
+    
+    <item>
+      
+      <title>Philosophy, Public Policy lifecycle and the farm laws</title>
+      
+      
+      <link>https://venkiphy6.github.io/writings/00_5_farm_bill_philosophy/</link>
+      <guid>https://venkiphy6.github.io/writings/00_5_farm_bill_philosophy/</guid>
+      
+      
+      <pubDate>Sat, 02 Apr 2022 13:52:44 -0600</pubDate>
+      
+      
+      
+      <description><![CDATA[<p><em>Note: You may notice that this post is dated older than when this website was created. That is because, this is a cross post. I had originally posted this on my old blog <a href="https://venkiisproblematic.blogspot.com/2022/04/philosophy-public-policy-lifecycle-and.html">here</a>. I am cross-posting it here in the spirit of collecting everything I have written in one place.</em></p>
+<p>I blame <a href="https://timesofindia.indiatimes.com/blogs/blunt-frank/repealing-of-farm-bills-the-fallouts/">the recent failure of the farm bills</a> on the ignorance of the government in how different philosophical frameworks map to different stages of the policy lifecycle.</p>
+<p>Moral philosophers ponder the ethics of a situation through different philosophical frameworks. The two that are most prominently used are deontology &amp; consequentialism. For simplicity&rsquo;s sake, without writing down the dictionary definitions of <a href="https://plato.stanford.edu/entries/consequentialism/">consequentialism</a> and <a href="https://plato.stanford.edu/entries/ethics-deontological/">deontology</a>, here is an operational definition of both. Deontologists say, &ldquo;Principles &amp; values matter&rdquo;. Consequentialists say, &ldquo;Consequences matter. Ends justify the means&rdquo;.</p>
+<p>For instance, say you told a child their drawing is good even though it was obviously bad. In this scenario, the deontologist would tell you, &ldquo;Principles matter. Lying, especially to a child, is wrong in principle. So you are ethically wrong&rdquo;. Meanwhile the consequentialist would say &ldquo;Consider the consequences of your actions. Lying to that child could very well encourage them to draw more and become a great artist in the future. We can assume in general artists are good for mankind. So by the means of lying you created good consequences. Ends justify the means. So you are not ethically culpable.&rdquo; You might wonder who is right here, the deontologist or the consequentialist? I don&rsquo;t think categories like &lsquo;right&rsquo; and &lsquo;wrong&rsquo; are appropriate here (except maybe to argue that the deontologist/consequentialist actually don&rsquo;t come to the aforementioned conclusions if they applied their frameworks correctly). Both the deontologist and the consequentialist has followed his/her framework and given you a &lsquo;right&rsquo; perspective. Keep in mind that these are just descriptive frameworks and are not prescriptive. It is your responsibility to weigh the different perspectives and make a decision. The specifics of the situation (like the specific personality of the child in question) would play a role in how you weigh these different perspectives.</p>
+<p>In the public policy lifecycle, I believe the consequentialist perspectives of economists must be weighted much higher when it comes to designing policies. This is probably why consequentialism is explicitly built into step 5 (&ldquo;Project the outcomes&rdquo;) of <a href="https://www.atlas101.ca/pm/concepts/bardachs-eightfold-path-to-more-effective-problem-solving/">Bardach&rsquo;s eightfold path to policymaking</a>. Let us also not forget that deontology in policy design effectively leads to paternalism. To quote <a href="https://www.google.co.in/books/edition/In_Service_of_the_Republic/2Sm-DwAAQBAJ?hl=en&amp;gbpv=0">Kelkar and Shah</a>, &ldquo;Where paternalism begins, &hellip;, we are down to value judgements. When one person wants to use state coercion to give shoes to poor people, and another wants to use state coercion to give shirts to poor people, there is no rational way to settle the disagreement.&rdquo; So deontology in policy design is a bad idea.</p>
+<p>With that said, I believe deontology must be weighted higher in the latter steps of the policy cycle when it comes to implementation. When implementing a policy, there is a clear &lsquo;right&rsquo; way to do it. Ideals of the democratic process and a respect for the constitution must become paramount. If that means the policy will take longer than expected to be implemented, then so be it. This is not the right part of the lifecycle to be a pure consequentialist.</p>
+<p>With regards to the farm bills, I believe the consequentialists did a good, albeit not the best, job of designing it. The bills were a step in the right direction towards <a href="https://timesofindia.indiatimes.com/india/866-academics-including-7-vcs-back-new-farm-laws/articleshow/80067167.cms">&ldquo;free(ing) the farm trade from all illicit market restrictions&rdquo;</a>. Where the government failed was in the deontology of implementation. To rush a bill that would affect the lives of so many, in the middle of a pandemic, without even a proper debate (See &ldquo;<a href="https://thewire.in/politics/farm-bills-rajya-sabha-legislative-scrutiny">The Way Farm Bills Passed in Rajya Sabha Shows Decline in Culture of Legislative Scrutiny (thewire.in)</a>&rdquo;) was deontologically wrong. The fact that the bill made sense from a consequentialist perspective can&rsquo;t be a good defense against the government&rsquo;s culpability in failed implementation from the deontological sense.</p>
+]]></description>
+      
+    </item>
+    
+    <item>
+      
+      <title>Interpreting the Systemistas-Randomistas debate on development strategy</title>
+      
+      
+      <link>https://venkiphy6.github.io/writings/00_4_randomistas_systemistas/</link>
+      <guid>https://venkiphy6.github.io/writings/00_4_randomistas_systemistas/</guid>
+      
+      
+      <pubDate>Tue, 29 Mar 2022 13:52:44 -0600</pubDate>
+      
+      
+      
+      <description><![CDATA[<p><em>Note: You may notice that this post is dated older than when this website was created. That is because, this is a cross post. I had originally posted this on the Effective Altruism forum <a href="https://forum.effectivealtruism.org/posts/N4HnkJSaD98DnD4kK/interpreting-the-systemistas-randomistas-debate-on">here</a> where I received comments disagreeing with some of the points I make on this post. I am cross-posting it here in the spirit of collecting everything I have written in one place.</em></p>
+<h2 id="introduction">Introduction</h2>
+<p>There has been a debate on development strategy emerging between development economists[1][2]. While one portion of development economists perform RCTs  (Radomistas) another portion work on systemic changes (Systemistas, as I would like to label them) and the ongoing debate between them is on which strategy is &lsquo;better&rsquo;. There has already been a post on this forum[3] which presents the arguments from the Systemistas perspective. Below I provide my interpretation of the thread of arguments in this debate without necessarily taking sides. A summary of my interpretation is that <em>Systemistas and Randomistas take different approaches to build their models of economic growth which takes them down very different paths</em>. If you have already heard the arguments in this debate before, one new thing you might learn from this piece is the growth model that the Randomistas might have in mind.</p>
+<p>This debate is relevant to EA since the community spends a lot of resources on RCTs and views that are for or against it can be important. In addition, the direction of this debate could also have implications on how we think about human well-being at large.</p>
+<h2 id="epistemic-status">Epistemic status</h2>
+<p>I am not an economist (atleast yet). Clarity over correctness has been the order of priorities here. Since it is <em>my</em> interpretation of the debate, in what follows, whenever I write to the effect of &ldquo;Systemistas say..&rdquo; or &ldquo;Randomistas say..&rdquo;, you must take it to mean &ldquo;The author believes Systemistas say&hellip;&rdquo; or &ldquo;The author believes Randomistas say&hellip;&rdquo;.</p>
+<h2 id="the-problem-with-growth-models">The problem with growth models</h2>
+<p>Development economists who are Systemistas believe that economic growth is the best way to improve human well-being. Their passion on the subject is best expressed by the following quote from [4]:</p>
+<blockquote>
+<p>&ldquo;Within the advanced countries, growth rates tend to be very stable over long periods of time &hellip; For poorer countries, &hellip; there are many examples of sudden, large changes in growth rates, both up and down. &hellip; I do not see how one can look at figures like these without seeing them as representing <em>possibilities</em>. Is there some action a government of India could take that would lead the Indian economy to grow like Indonesia&rsquo;s or Egypt&rsquo;s? If so, <em>what</em>, exactly? If not, what is it about the &rsquo;nature of India&rsquo; that makes it so? The consequences for human welfare involved in questions like these are simply staggering: Once one starts to think about them, it is hard to think about anything else.&rdquo;</p>
+</blockquote>
+<p>By economic growth, Systemistas typically mean growth in GDP per capita. Changes in GDP per capita correlate positively with a lot of indicators of human well-being [3]. Of course, one can think of more holistic measures of economic growth other than GDP per capita. But I find it hard to imagine how any such attempts could negate the idea of economic growth being positively correlated with human well-being.</p>
+<p>But correlation and causation are different things altogether. Is it that economic growth creates human well-being or human well-being creates economic growth? Both these directions of causations can explain the correlations. Further does the causation run the same way in all countries? And what about the level of causation in different countries? Growth economists attempt to answer such questions by building models of economic growth and checking it against empirical data. The latter is often done by performing regressions of all sorts with macrolevel cross-country datasets. There is a mountain of literature on this topic. But the simplest model is the Cobb-Douglas form of the aggregate production function below. This is also the basis of &lsquo;Growth accounting&rsquo;:</p>
+<p>$$
+Y = A \times K^\alpha \times L^{1-\alpha}  \tag{1}
+$$
+where $Y$ is the total production (basically GDP at the aggregated level, say, of a country), $A$ is the Total Factor Productivity (hitherto, TFP), $K$ is capital accumulated, $L$ is raw labor available and $\alpha$ is the capital&rsquo;s share of contribution to the output. Equation (1) is just one specific form of the aggregate production function. A general aggregate production function is of the form: $\mathcal{F}\left( A, K, L\right)$. In the literature they put the capital and labor terms together and call it &ldquo;Factor Accumulation&rdquo;. All of this is to say, that <em>economic growth could be accounted for by two things: Factor (capital of all sorts &amp; labor) Accumulation and Total Factor Productivity.</em></p>
+<h3 id="the-notorious-tfp">The notorious TFP</h3>
+<p>The next natural step is to ask: Which among these two things - Factor Accumulation or Total Factor Productivity - explains growth better? There is a definite answer to this - &ldquo;Factor accumulation does not account for the bulk of cross country differences in the level or growth rate of GDP per capital; something else- TFP - does&rdquo; [5] So TFP explains growth, atleast in the long run. But <em>what is TFP and how can we explain the differences in TFP across countries</em>?</p>
+<p>This is where doubts creep in and the skepticism of the Randomistas begin. It is not entirely clear from the literature what explains &ldquo;the TFP blackbox&rdquo;[6]. You can even see this confusion expressed in the aforementioned quote which refers to TFP as &lsquo;something else&rsquo;. Different economists attribute different meanings to it. It has been interpreted as Technology, externalities of human capital, coordination failures (For a discussion on these three interpretations see section 3 of [7]) and so on. It is not entirely clear to me what is the general level of consensus on each of these interpretations.</p>
+<p>In addition, the model also predicts something called Convergence. That is, poorer countries must grow faster and eventually catch-up with the richer countries. But, if you don&rsquo;t live under a rock, you already know that this is not happening, atleast not in all the poorer countries. What we see instead is &ldquo;Divergence, big time&rdquo;[8]. Valiant attempts have been made to explain this divergence[9], in vain[10], and attempts continue to be made.</p>
+<p>Such theoretical problems make it hard for the Systemistas to give precise prescriptions on what needs to be done at a macro level. This lack of a precise prescription is possibly what makes the Randomistas highly skeptical of the Systemistas. The failure of prescriptions like the Washington consensus[11] add to their skepticism.</p>
+<h2 id="skepticism-v-cynicism">Skepticism v Cynicism</h2>
+<p>But being skeptical about growth can&rsquo;t justify throwing away the macro idea of growth-leading-to-welfare altogether and focusing on micro interventions through RCTs. This dialogue between Shruti Rajagopalan and Lant Pritchett in a recent podcast[12] makes this point:</p>
+<blockquote>
+<p><em>PRITCHETT</em>: &hellip; One thing I’m very much worried about is that the backlash against economists perhaps being overly dogmatic about there being a single, narrow recipe for growth has [not] been &hellip; “We need a different recipe,” but “We don’t need growth.” It’s like if you say, “In order for you to have a healthy heart, you need to eat the following diet.” It could well be that people are just wrong about how narrow the necessity of that diet is, in which case you could have some skepticism. If the response to that was, “I don’t like that diet; therefore, I’m going to weigh 300 pounds and never exercise.” That’s really bad for your health.</p>
+<p><em>RAJAGOPALAN</em>: <strong>Skepticism about the lack of the poor diet is not the same thing as skepticism about the need for a healthy heart, right?</strong></p>
+<p><em>PRITCHETT</em>: Exactly. I feel there’s way too much skepticism about the need for growth, and I think that’s just a deep confusion. &hellip;</p>
+</blockquote>
+<p><em>(Emphasis added by me)</em></p>
+<p>While it is true that growth models are far from perfect, the right response to that might not be to stop making growth models altogether. It might just be that we need to figure out different techniques to build better models. A Systemista could argue that given the stakes that are facing us here, maximum resources must be spent in doing this instead of doing RCTs.</p>
+<h2 id="the-randomistas-growth-model">The Randomistas&rsquo; growth model</h2>
+<p>A perfunctory reading of the arguments does make it seem like the Randomistas are throwing away the growth-leading-to-welfare idea. But as I see it, the Randomistas have a growth model. They use a different approach to building it and that leads them to look at microdata and hence RCTs. Below I will attempt to give just a flavor of their thought process. If you are &rsquo;non-mathy&rsquo; feel free to skip these equations (including the paragraph that explains the symbols in it) and read what is below it.</p>
+<p>These equations are taken from  [7] with some changes in notation intending to put human capital and physical capital inside one term $K$ (and not inside the $A$), for simplicity&rsquo;s sake:</p>
+<p>$$
+\text{The aggregate production function at the macrolevel,} \mathcal{F}\left( A, \overline{K}, \overline{L}\right) \tag{2}
+$$</p>
+<p>$$
+\text{The production function at the microlevel, } F\left(\theta, K, L\right) \tag{3}
+$$</p>
+<p>$$
+\text{The distribution of productivity across the population is, } \tilde{G}(\theta)  \tag{4}
+$$</p>
+<p>$$
+\text{Now, } \mathcal{F} \left( A, \overline{K}, \overline{L} \right) \equiv \max_{K(\theta), L(\theta)} { \int_{\theta} F(K(\theta), L(\theta), \theta) d\tilde{G}(\theta) }  \tag{5}
+$$</p>
+<p>$$
+\text{subject to, } \int_{\theta} K(\theta)d\theta = \overline{K} \text{ and } \int_{\theta}L(\theta)d\theta = \overline{L}
+$$</p>
+<p>It is important to see that equation (2) is of the same generalized form of the aggregate production function (with bars on top of $K$ and $L$ to indicate aggregation) which I had mentioned earlier when discussing equation (1). What is new here is equation (3) which is the production function of every micro level individual. In case of individuals &lsquo;TFP&rsquo; is interpreted as productivity of each individual. It is represented as $\theta$. Equation (5) creates an equivalence between the macrolevel production function in equation (2) and the microlevel production function in equation (3) by maximizing the integral of the latter. This integral is done with $\tilde{G}(\theta)$ (from equation (4)) and by doing so we are basically disregarding the individual productivities which is actually an implicit assumption in the aggregate production function that didn&rsquo;t come out clearly in the earlier discussion of equation (1). The final line just tells us the constraints of the optimization. Overall, from a math perspective, nothing much has really changed in this version: the generalized form of the aggregate production function is still $\mathcal{F}\left( A, K, L\right)$ (with a couple of bars for notational convenience). But we are now looking at it as the sum of micro level production functions.</p>
+<p>Here is the interpretation of these equations. The idea is to imagine every individual in the economy (it can be people, firms et cetera) as having their own outputs and hence their own capital and &lsquo;TFP&rsquo; (which has a clear interpretation for an individual as their productivity). From the Randomistas perspective, the economy&rsquo;s output as a whole must be a sum of these individual outputs. So the capital of the economy is a sum of the individual capitals and the total labor in the economy is a sum of the individual labor.</p>
+<p>Once you accept this premise, you start seeing a lot of the assumptions that were implicit in the macrolevel growth model starting to pop up. One of the big implicit assumptions is that the macro models don&rsquo;t necessarily care who has the endowments within the country to start firms. They assume markets are perfect (see first welfare theorem) and that the person with the right level of productivity will be able to trade for the right amount of capital which will create the right kind of firms which will then create the growth needed for convergence. But the Randomistas, who work a lot with micro data, know this to not be true. Market/government failures are very real. A lot of empirical work has been done to show this to be the case. This leads to the growth theory of the Randomistas: <em>Macrolevel growth must be the sum of microlevel growth</em>.</p>
+<p>But the Randomistas growth theory is far from complete. Even if one completes it, we do not possess the rich microlevel data that might be needed to empirically verify such models. So, the Randomistas say, let us collect this data now by designing experiments using RCTs and we will figure out how to build the model with it later.</p>
+<h2 id="public-policy-implications">Public Policy implications</h2>
+<p>The Systemistas counter by saying that RCTs are not methodologically sound. They claim it won&rsquo;t be possible to generalize RCT results[13] which would then make it difficult for building any growth model that the Randomistas may have in mind. Further the Systemistas see issues when it comes to public-policymaking. The Randomistas say RCTs provide precise evidence to policymakers. But it is easy to make bad policy even with precise evidence. To illustrate this point, let us consider a policy solution has been proposed - the government shall distribute $n$ kg of free rice to the poor nationwide. Imagine a policymaker who is a Randomista. This policymaker would jump right into designing-an-RCT mode since it will give precise evidence on the logistics of this rice distribution program. But is that what a policymaker should do? Should not the policymaker first ask questions like, &ldquo;Is it right for the government to be intervening here and providing rice?&rdquo;? Since an RCT can&rsquo;t be run to answer such a question the Randomista policymaker might skip this altogether and run the program. But if it turns out that this was a case of inappropriate government intervention then the policy would still fail at a macro level even though the logistics of it were designed using precise evidence from an RCT.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>So that is my interpretation of the debate. The Systemistas approach to growth modelling is &lsquo;very&rsquo; top-down while the Randomistas take a &lsquo;very&rsquo; bottom-up approach.</p>
+<p>If you have read this far you are probably someone interested in some prescriptions! Below I give some. If you agree with my interpretation (which if you don&rsquo;t, then we end up with a fun meta-debate!):</p>
+<ul>
+<li>and you are a Randomista, then it will be useful if you prove that macrolevel models can indeed be built using experimental results and that such models can provide prescriptions leading to sustainable human well-being.</li>
+<li>and you are a Systemista, then it will be useful to prove that Randomistas&rsquo; growth models just won&rsquo;t lead to sustainable human well-being.</li>
+<li>and you are a policymaker, then don&rsquo;t jump the gun! Remember that precise evidence is important but it is not everything.</li>
+<li>and you are an interested third party like me, maybe you can go meta with a Scientometric analysis on the literature here and observe the trends of this debate. You can see if resources (number of papers, number of researchers etc.) are skewed towards one side of this debate and look at the economics of the debate play out!</li>
+</ul>
+<p>Overall, I believe, the arc of development economics is long but it shall eventually bend towards sustained human well-being. Meanwhile, RCTs shall be run <em>and</em> cross-country regressions shall be done. The debate will continue to play out.</p>
+<h2 id="references">References</h2>
+<ol>
+<li><em>Deaton v Banerjee</em>. NYU Development Research Institute. Retrieved March 29, 2022, from <a href="https://wp.nyu.edu/dri/events/auto-draft/annual-conference-2012-debates-in-development/deaton-v-banerjee/">https://wp.nyu.edu/dri/events/auto-draft/annual-conference-2012-debates-in-development/deaton-v-banerjee/</a></li>
+<li>Pritchett, L. (2017, March 28). <em>Getting Kinky with Chickens. Center for Global Development</em>. <a href="https://www.cgdev.org/blog/getting-kinky-chickens">https://www.cgdev.org/blog/getting-kinky-chickens</a></li>
+<li>Hillebrandt, H.; Halstead, J. G. (2020, January 16). <em>Growth and the case against randomista development</em>. Effective Altruism Forum. <a href="https://forum.effectivealtruism.org/posts/bsE5t6qhGC65fEpzN/growth-and-the-case-against-randomista-development">https://forum.effectivealtruism.org/posts/bsE5t6qhGC65fEpzN/growth-and-the-case-against-randomista-development</a></li>
+<li>Lucas, R. E. (1988). <em>On the mechanics of economic development</em>. Journal of Monetary Economics, 22(1), 3–42. <a href="https://doi.org/10.1016/0304-3932(88)90168-7">https://doi.org/10.1016/0304-3932(88)90168-7</a></li>
+<li>Easterly, W.; Levine, R. (2001). <em>It’s Not Factor Accumulation: Stylized Facts and Growth Models</em>. The World Bank Economic Review, 15(2), 177–219. <a href="https://doi.org/10.1093/WBER/15.2.177">https://doi.org/10.1093/WBER/15.2.177</a></li>
+<li>Banerjee, A.V., 2008. <em>Big answers for big questions: the presumption of growth policy.</em> In Brookings Conference What Works in Development.</li>
+<li>Banerjee, A. V., Duflo, E. (2005). <em>Growth Theory through the Lens of Development Economics</em>. Handbook of Economic Growth, 1(SUPPL. PART A), 473–552. <a href="https://doi.org/10.1016/S1574-0684(05)01007-5">https://doi.org/10.1016/S1574-0684(05)01007-5</a></li>
+<li>Pritchett, L. (1997). <em>Divergence, Big Time</em>. Journal of Economic Perspectives, 11(3), 3–17. <a href="https://doi.org/10.1257/JEP.11.3.3">https://doi.org/10.1257/JEP.11.3.3</a></li>
+<li>Mankiw Gregory, N., Romer, D., Weil, D. N. (1992). <em>A Contribution to the Empirics of Economic Growth</em>. The Quarterly Journal of Economics, 107(2), 407–437. <a href="https://doi.org/10.2307/2118477">https://doi.org/10.2307/2118477</a></li>
+<li>Klenow, P. J., Rodríguez-Clare, A., Rodriguez-Clare, A. (1997). <em>The Neoclassical Revival in Growth Economics: Has It Gone Too Far?</em>. NBER Macroeconomics Annual, 12, 73. <a href="https://doi.org/10.2307/3585220">https://doi.org/10.2307/3585220</a></li>
+<li>Rodrik, D. (2006). <em>Goodbye Washington Consensus, Hello Washington Confusion? A Review of the World Bank Economic Growth in the 1990s: Learning from a Decade of Reform</em>. Journal of Economic Literature, 44(4), 973–987. <a href="https://doi.org/10.1257/JEL.44.4.973">https://doi.org/10.1257/JEL.44.4.973</a></li>
+<li>Rajagopalan, S. (2022, March 17). <em>Ideas of India: Where Did Development Economics Go Wrong?</em>. Discourse. <a href="https://www.discoursemagazine.com/economics/2022/03/17/ideas-of-india-where-did-development-economics-go-wrong/">https://www.discoursemagazine.com/economics/2022/03/17/ideas-of-india-where-did-development-economics-go-wrong/</a></li>
+<li>Pritchett, L. (2021). Let’s Take the Con Out of Randomized Control Trials in Development: The Puzzles and Paradoxes of External Validity, Empirically Illustrated  (No. 399; CID Faculty Working Paper). <a href="https://www.hks.harvard.edu/centers/cid/publications/faculty-working-papers/lets-take-con-out-of-randomized-control-trials">https://www.hks.harvard.edu/centers/cid/publications/faculty-working-papers/lets-take-con-out-of-randomized-control-trials</a></li>
+</ol>
+<h2 id="other-sources">Other sources</h2>
+<p>I skimmed a lot of stuff but I couldn&rsquo;t cite all of them. So just wanted to add a couple more. If there are other resources you know, please put them in the comments too:</p>
+<ol>
+<li>Banerjee-Duflo&rsquo;s 2018 course at the Paris School of Economics found <a href="https://www.youtube.com/playlist?list=PLMeTHfPZrCG2Zj9f2dun7gquZv171Lv0K">here</a>. The Banerjee lectures in this course helped me read parts of [7]</li>
+<li><a href="http://www.debrajray.com/wp-content/uploads/2017/12/RayPalgrave.pdf">Debraj Ray&rsquo;s entry</a> in the New Palgrave Dictionary of Economics and <a href="https://press.princeton.edu/books/hardcover/9780691017068/development-economics">his textbook on development economics</a> explain the evolution of growth theory quite well. If you thought this article was interesting (or not), you would just love his writing!</li>
+</ol>
+]]></description>
+      
+    </item>
+    
+    <item>
+      
+      <title>My preliminary research on the Adtech marketplace</title>
+      
+      
+      <link>https://venkiphy6.github.io/writings/00_3_adtech_prelim/</link>
+      <guid>https://venkiphy6.github.io/writings/00_3_adtech_prelim/</guid>
+      
+      
+      <pubDate>Mon, 29 Mar 2021 13:52:44 -0600</pubDate>
+      
+      
+      
+      <description><![CDATA[<p><em>Note: You may notice that this post is dated older than when this website was created. That is because, this is a cross post. I had originally posted this on the Effective Altruism forum <a href="https://forum.effectivealtruism.org/posts/vj3yGmc46nT4YY2K4/my-preliminary-research-on-the-adtech-marketplace">here</a>. I am cross-posting it here in the spirit of collecting everything I have written in one place. You will notice there is a section that has been struck through - these were edits I made after reactions by readers in the forum. Clearly, not my best work!</em> 🥲</p>
+<h2 id="meta">Meta</h2>
+<p>I am not an Economist. I am just a wannabe Technology Policy enthusiast. I believe one of the problem areas where Tech Policy interventions are necessary is online social platforms. So I have been reading on this problem area in the last few weeks and I felt like collecting my thoughts. Hence this post. To begin my research, I have read through news stories and anecdotes. I have neither dug through the economic foundations of these arguments fully nor have I been able to lay my hands on some granular data. I am hoping to do that in a follow-up post.</p>
+<h2 id="what-i-would-love-to-hear-from-you">What I would love to hear from you</h2>
+<p>In no particular order:</p>
+<ul>
+<li>Link me to resources on how to potentially create an economic model of the Adtech marketplace. I would be grateful if you can direct me to any Economic concepts I need to look into to make a stronger argument.</li>
+<li>Link me to relevant datasets.</li>
+<li>Critique my understanding of how ads work. I am not a digital marketer myself and would like to correct any misunderstandings I have.</li>
+<li>Critique my writing. This is my first &ldquo;real&rdquo; post in the EA forum and I haven&rsquo;t written a lot in the past. So this is valuable to me.</li>
+</ul>
+<p>Take everything that follows with a huge load of salt. Here goes nothing&hellip;</p>
+<h2 id="context">Context</h2>
+<p>As you may be already aware, online social platforms have caused problems like Information Disorder (spread of Mis/Dis/Malinformation) and data privacy violations among others. You may have watched the popular Netflix documentary <a href="https://www.thesocialdilemma.com/the-film/">&lsquo;The Social Delimma&rsquo;</a> about these problems or listened to the <a href="https://80000hours.org/podcast/episodes/tristan-harris-changing-incentives-social-media/">80000 hours podcast episode</a> where Rob Wiblin interviewed Tristan Harris. There seems to be a general consensus that these problems are occurring since these platforms are designed according to the needs of the underlying business model of Advertisement Technology (Adtech). This means that regulating the Adtech marketplace could help us address the other problems also. So in the last few weeks, I have been reading up on how the Adtech Marketplace works. Here are my learnings so far.</p>
+<h2 id="why-i-think-eas-should-think-about-adtech">Why I think EAs should think about Adtech</h2>
+<p><em>NOTE: This section was added after <a href="https://forum.effectivealtruism.org/posts/vj3yGmc46nT4YY2K4/my-preliminary-research-on-the-adtech-marketplace?commentId=Et3PpPiS2KhD44aup">tamgent&rsquo;s comment</a> on relevance to EA.</em></p>
+<p>Given that online social platforms touch the lives of <a href="https://en.wikipedia.org/wiki/List_of_social_platforms_with_at_least_100_million_active_users">millions of people</a> with the potential for more to join in the future, I assume it is fair to say the problems on these platforms like Information Disorder have a huge scale. But I find these problems quite intractable at a systemic level. It looks like a lot of work being done on these problem areas is to understand the problems case-by-case but not necessarily to solve them systematically. <del><a href="https://firstdraftnews.org/wp-content/uploads/2017/11/PREMS-162317-GBR-2018-Report-de%CC%81sinformation-1.pdf?x79527">This report by First Draft</a> or the work of <a href="https://disinformationindex.org/research/">Global Disinformation Index </a> are good examples - they are building frameworks for managing the problem at a case-by-case level but not actually doing anything concretely to solve it systemically in a significant way.</del> This is not to say that they are not doing valuable work. This could indeed be the best strategy for now. I sympathise with their approach since the problem is quite nettlesome. I feel conflicted to even suggest creating any policy directly aimed at this matter since letting the State regulate the Information Ecosystem directly has the potential to deter Freedom of Speech even in a Democratic Republic. So these problems seem highly intractable when approached directly.</p>
+<p>But I believe an indirect approach might help. I think &ldquo;The problem&rdquo; of online social platforms is their engagement at scale. After all, Mis/Dis/Malinformation have been part of the Information Ecosystem long before online social networks were created, just not with the current level of engagement. There is evidence to suggest that this high engagement is a direct result of the design of these platforms <a href="https://www.humanetech.com/brain-science">to attract &amp; sustain users&rsquo; attention</a>. This design decision is in turn a result of the existence of a marketplace for attention. This giant marketplace (<a href="https://www.emarketer.com/content/global-digital-ad-spending-update-q2-2020#page-report">estimated to have a spending of $389.29 billion in 2021</a>)  has been made possible because of Advertisement Technology (Adtech). Then, it is fair to claim that &ldquo;The problem&rdquo; with online social platforms is high engagement with low quality content which is a negative externality of the Adtech Marketplace. This means that a possible approach to solving the systemic problem could be to understand and regulate this Adtech marketplace.</p>
+<p>Regulating a marketplace seems far more tractable and acceptable - we know Economics and I think it is more or less taken as granted by policymakers that the State <em>has</em> to intervene when there are market failures. So now we have a problem with a big scale and a tractable intervention. At least in this forum, I don&rsquo;t see many posts about Ad Tech. So I am going to assume Neglectedness. This then makes this a decent problem atleast for an individual EA to pay attention to, if not EA organizations. One could also argue that many EAs actually use social platforms - I wouldn&rsquo;t have found EA at all without social platforms. Also if (EA) charities are spending part of their money on digital advertising it might be important to analyze if this is a good idea.</p>
+<h2 id="how-do-ads-work">How do ads work</h2>
+<p>Adtech is way more complicated than you might expect! To illustrate this point in his <a href="https://techpolicy.substack.com/p/of-the-model-and-dark-pool-sales">newsletter</a>, <a href="https://twitter.com/prateekwaghre">Prateek Waghre</a> links to a <a href="https://lumapartners.com/content/lumascapes/display-ad-tech-lumascape/">visualization</a> made by Luma Partners for the display ads ecosystem. Quite rightly he writes, &ldquo;This one makes my head spin&rdquo;:</p>
+<img src = "https://lumapartners.com/wp-content/uploads/2016/11/2y104hziiWewOYEs6P9fcZmK6OjsanezsF.bMzrcqiRUEtbob.cgj76S.png" style="zoom:65%"/>
+<p>So what follows is a highly simplified story of how an ad gets displayed. If a publisher (aka content producer/seller) wants to make money by displaying ads, they create a slot for it on their webpage and sign up on a Supply Side Platform (SSP) with an advertising ID. One can typically find the advertising ID of a website in different SSPs by going to their <code>ads.txt</code> page. For instance, try <code>https://www.nytimes.com/ads.txt</code> and you will see the advertising IDs of the New York Times. Now, when the publisher&rsquo;s webpage is opened, the SSP&rsquo;s server talks to the Demand Side Platform&rsquo;s (DSP) server telling it that &ldquo;User X has opened the webpage. Here is all the data we have on this user&rdquo;. On the DSP, several advertisers (aka Buyers/Marketers) have signed up to show their ads. In this platform they can select what kind of consumer they want to reach - like so and so age group, so and so gender etc.. They also mention the CPM (Cost per mille/thousand) they are ready to pay. Now, if the advertiser&rsquo;s preference matches the profile of the user who has currently opened the webpage, they can participate in an auction along with other advertisers who are also eligible. The ad of this auction&rsquo;s winner will get displayed on the webpage and the fact that it has been successfully displayed is also relayed back to the advertiser. Remember that it typically only takes a fraction of a second between the user opening the webpage till the auction&rsquo;s end. So as a simple picture:</p>
+<p>Publisher&rsquo;s webpage &gt; SSP server &gt; DSP server &gt; Auction &gt; DSP server &gt; SSP server &gt; Publisher&rsquo;s webpage &gt; User&rsquo;s eyeball &gt; Engagement data back to Advertiser</p>
+<h2 id="advertisers-dont-know-what-is-going-on">Advertisers don&rsquo;t know what is going on</h2>
+<p>The biggest revelation for me was that this system is actually bad for the advertiser! Before I understood the problems of this system, I thought the advertisers were intentionally letting ads be against anything and everything - be it an extremist website or a cat pic - just in case they might get a click. But the truth is they have no idea what is happening! There is so much opacity in this system.</p>
+<p>Advertisers actually have very little control of their ad inventories. They think they are buying attention with it. But what they are actually buying is a package that promises attention but it may not actually deliver on that promise. To quote <a href="https://us.macmillan.com/books/9780374538651">Tim Hwang&rsquo;s  <em>Subprime Attention Crisis</em> (Ch4)</a>, &ldquo;All an advertiser wins in an ad exchange auction is the right to display its content on a loading web page. When a demand-side platform (DSP) is programmed to seek out opportunities to reach a demographic like &ldquo;males 18 to 24 living in the United States,&rdquo; it tells us whom the advertising will ideally reach, but not whether the people who actually see the ad will be persuaded, or even interested&rdquo; He goes on to say that advertisers are buying a derivative (the packaged inventory) and not the asset (the attention).</p>
+<p>Put yourself in the shoes of a marketer. You could buy an ad and the system would report back saying you got an impression. But that ad might be at the bottom of the page where no one actually saw it or the user might have an adblocker but it still got counted as an impression and you still paid for it (<a href="https://uprival.com/do-blocked-ads-count-towards-impressions">although it is not entirely clear if this happens or not</a>). In addition (especially if your DSP is an Ad Network), you probably don&rsquo;t fully know what websites the DSP may have in their inventory (see <a href="https://branded.substack.com/p/under-the-hood-of-a-criteo-ad-campaign">this story</a> and many others covered in the Branded newsletter by Claire Atkin and Nandini Jammi) - it could be an extremist website and then someone like <a href="https://en.wikipedia.org/wiki/Sleeping_Giants">Sleeping Giants</a> could then hold you accountable. There are so many middlemen in the system. As an advertiser, <a href="https://clearcode.cc/blog/ad-tech-transparency/">you are paying the markup</a> for each of these middlemen instead of paying just for the ad space alone. In addition to all this, there is rampant ad fraud. Malevolent Publishers have manipulated their <code>ads.txt</code>(see this story <a href="https://branded.substack.com/p/so-thats-how-breitbart-is-still-making">here</a> and <a href="https://medium.com/@thezedwards/breitbart-com-is-partnering-with-rt-com-other-sites-via-mislabeled-advertising-inventory-6e7e3b5c3318">here</a>), <a href="https://whatsnewinpublishing.com/the-ft-warns-advertisers-after-discovering-high-levels-of-domain-spoofing/">spoofed domains</a>, used <a href="https://www.wsj.com/articles/fraudulent-web-traffic-continues-to-plague-advertisers-other-businesses-1522234801">click farms and bots</a> among other shenanigans.</p>
+<p>This is not something negligible that happens in the fringe. This is the norm of this marketplace. In fact, Google has confessed that <a href="https://in.pcmag.com/web-sites/46102/56-of-googles-online-ads-are-never-seen">56% of their ads are not seen</a>. There are <a href="https://www.invespcro.com/blog/online-ad-fraud-statistics/">reports</a> that suggest ad fraud takes $1 for every $3 spent on digital ads. This is also not happening to some marketers who are not experienced enough. Uber realized it had wasted $100 million on useless ads (see <a href="https://www.marketingtodaypodcast.com/194-historic-ad-fraud-at-uber-with-kevin-frisch/">here</a> and <a href="https://twitter.com/nandoodles/status/1345774768746852353">here</a>). Chase bank reduced to advertising on just 5000 websites from 400000 websites and saw no change in the results [story <a href="https://www.nytimes.com/2017/03/29/business/chase-ads-youtube-fake-news-offensive-videos.html">here</a>]. There is a legitimate opacity in this market.</p>
+<h2 id="digital-ads-are-overvalued">Digital ads are overvalued</h2>
+<p>Because this marketplace is so bad, one would expect that prices would go down since marketers would ideally be paying less for such a low quality product. But this is not happening. The prices of digital ads are <a href="https://lvn.medium.com/online-marketing-inflation-will-eat-your-business-c8fcb1ac5872">going up</a>! More marketers are spending more money while neither the growth of users nor the amount of attention they can give is increasing in the platforms proportionally. So marketers are overvaluing digital ads. Maybe marketers assume that because they get so much data on impressions, digital advertising is better. But the target of marketing must be conversions or at the very least building awareness. It can not be just getting some data!</p>
+<p>This overvaluation leads some to believe that there is an Adtech bubble. The book <a href="https://us.macmillan.com/books/9780374538651"><em>Subprime attention crisis</em> by Tim Hwang</a> goes so far as to claim that this scenario is similar to the Subprime Mortgage Crisis of 2008 when the housing bubble burst. He compares the ad inventories advertisers buy to the Collateralized Debt Obligations (CDOs) investors used to buy since there is so much opacity in both of them. Just as rating agencies gave CDOs triple AAA ratings and overvalued them, DSPs and SSPs are also overvaluing the attention an ad inventory can really get the advertiser. Just as mortgage issuers passed up the risk of a mortgage up the chain, DSPs/SSPs pass up the risk of owning bad inventory to other middlemen and assume no accountability. Given these parallels, Tim Hwang argues that the marketing bubble will burst and others seem to agree (see <a href="https://branded.substack.com/p/yes-the-adtech-bubble-is-going-to">here</a>). Interestingly, he takes the position that it is better for this bubble to undergo a controlled burst instead of preventing it from bursting. He writes, &ldquo;Rather than trying to fix a broken market, we should work toward a controlled demolition that reduces its influence in the long run&rdquo;. Given the opacity, the obvious policy recommendation is for more transparency. Tim Hwang also argues for it in his book and I have seen a policy paper by ASD with a similar <a href="https://securingdemocracy.gmfus.org/levers-in-the-digital-advertising-ecosystem/">proposal</a>.</p>
+<h2 id="concluding-remarks">Concluding remarks</h2>
+<p>So these are my initial learnings. The most striking part to me is that just as users of these platforms don&rsquo;t know how content is served to them, advertisers don&rsquo;t know where their ads are landing. The platforms are unfair to everyone involved - users as well as advertisers. Except for the platforms and other middlemen, there are no real winners here.</p>
+<p>There is another interesting quirk to ponder. One of the points I made early on was that regulating the Adtech marketplace would in turn address other issues like Information Disorder and Data privacy since platforms would have to redesign. But what guarantees that a redesign of the platform would actually change people&rsquo;s behaviours? Remember that none of us have experienced a regulated internet yet. What if even after a redesign we continue the same behaviours because we simply don&rsquo;t know how else to behave on the internet? I don&rsquo;t know the answer to this. But it may be a good idea to pursue the regulation of the Adtech marketplace as an end unto itself and not just as a means for other ends. It feels problematic to let an unstable economic model that thrives on fraud &amp; opacity, hold the internet hostage. That is enough reason to regulate it.</p>
+]]></description>
+      
+    </item>
+    
+    <item>
+      
+      <title>A two-layer network approach to Information Disorder</title>
+      
+      
+      <link>https://venkiphy6.github.io/writings/00_2_mutlilayer_networks/</link>
+      <guid>https://venkiphy6.github.io/writings/00_2_mutlilayer_networks/</guid>
+      
+      
+      <pubDate>Mon, 21 Dec 2020 13:52:44 -0600</pubDate>
+      
+      
+      
+      <description><![CDATA[<p><em>Note: You may notice that this post is dated older than when this website was created. That is because, this is a cross post. I had originally posted this in my old blog <a href="https://venkiisproblematic.blogspot.com/2020/12/a-two-layer-network-approach-to_21.html">here</a>. I am cross-posting it here in the spirit of collecting everything I have written in one place.</em></p>
+<p>Information disorder, popularly referred to by its problematic synonym &ldquo;fake news&rdquo;, is turning out to be a massive problem. Here I try to explain a framework with which I have been contextualizing the various aspects of the problem. I believe there are two layers of networks involved - one of information and another of people - and these two networks have interactions between and within them. I am going to use some jargon on Networks dynamics which I define in my earlier blog <a href="">here</a>. So if the jargon seems foreign, kindly read through that post first.</p>
+<h2 id="the-two-layers-separately">The two layers, separately</h2>
+<p>As aforementioned, I think there are two layers of networks involved in the Information Disorder problem - The Information layer and The People layer.</p>
+<ol>
+<li>The Information layer - In this layer, the nodes are different pieces of information while the edges relate two pieces of information. The different pieces of information on a social network could be posts (aka tweets or threads) and comments (aka retweets). Two pieces of information can be related if their topics are related. Obviously, if one piece of information lead to the other piece being created (like a tweet leading to a retweet) they will be connected since they would be on the same topic.</li>
+<li>The People layer - As the name suggests, this layer is made of people. This is the network that most of us think about when thinking of a social network - nodes are people and edges exist between them if they are acquainted with each other in some abstract way (&lsquo;Friends&rsquo; on Facebook, &lsquo;Followers&rsquo; on Twitter etc.).</li>
+</ol>
+<h2 id="the-two-layers-together">The two layers, together</h2>
+<p>Now that we have established each layer&rsquo;s nodes and the interactions within them, lets think about the interactions between the layers. A user in the People layer and a piece of information in the Information layer are connected if the user engages (creates, shares, likes etc.) with the piece of information. This interaction now creates a new type of edge within both the layers. In addition to the edges that are native to the Information layer, due to the interactions between the layers, a new type of edge is formed if the one user in the People layer engages with two different pieces of information. Similarly, in addition to the native edges of the People layer, the inter-layer interactions creates a new type of edge in that layer, if a piece of information is engaged with by two different users.</p>
+<p>The complicatedness of the problem should already be clear given the structure of the interactions between and within these two layers I have put down so far. (See my crude depiction of the explanation so far if you are unclear). But the fun doesn&rsquo;t stop there! One needs to think about the dynamics involved now.</p>
+<img src='/IDLayers.jpg' style="zoom: 14%;" align='center'/>
+<p>In the People layer, dynamics <em>of</em> the network plays out, if a new person joins the network or existing people leave it or people make new friends or unfriend existing ones. In the Information layer, it plays out, if a new piece of information is created or a piece of information is retracted or one piece of information suddenly gets new context relating it to other pieces of information. So dynamics <em>of</em> the networks is straight forward in that it happens independent of the other layer. But the astute reader would have noticed a small nuance in the dynamics <em>of</em> the Information layer - how exactly can a piece of information be retracted? I will come to this later.</p>
+<p>This is not the case for dynamics <em>on</em> the networks. In the Information layer, popularity diffuses through the network due to the non native edges created between two pieces of information even if the two pieces of news are seemingly unrelated. In the People layer, information gets debated though the non native edges created between two people who are actually not acquainted with each other at all. This dynamics is a bit more complicated than the dynamics <em>of</em> the networks here, since it depends on the edges created by interlayer interactions. But, and this you will recognize is a refrain in Information Disorder literature&hellip; it gets more complicated.</p>
+<p>Now consider a user who has created a piece of content or is particularly passionate about one. To increase its popularity they could create bots in the People layer that are subscribed to their favourite piece of content in addition to other pieces of content that are more popular than their own and hence create artificial non native edges in the information layer, hence spreading its popularity. Here dynamics <em>of</em> the network in one layer ended up creating dynamics <em>on</em> the other layer&rsquo;s network. This is a case of hybrid dynamics. There are several other examples of hybrid dynamics playing out. I leave it to you as a thought exercise to imagine them.</p>
+<h2 id="contextualizing-the-problem-using-the-two-layer-framework">Contextualizing the problem using the two layer framework</h2>
+<p>Lets now try to use these two layers to contextualize the solutions that are typically proposed to solve for Information Disorder. As I alluded to in the first blog, critical thinking/media literacy efforts focus on affecting dynamics <em>on</em> the People layer. When platforms put labels on posts (like &lsquo;This claim is disputed&rsquo;), they are trying to acknowledge the fact that a given piece of information may not be trending on its own merits but rather because of the artificial non native edges or the interlayer interactions and hence they affect the dynamics <em>on</em> the Information layer. Proposals to split up big social media firms try to address the dynamics <em>of</em> the People layer, with the (in my opinion, unrealistic) hope that competition created will make the size of the People layer on a given platform small. Calls to ban certain pieces of information address dynamics <em>of</em> the Information layer.</p>
+<p>One can even contextualize other frameworks proposed to think of the problem within this two layer framework. To me, the First Draft&rsquo;s intent-based frame for Information Disorder [1]  seems to be a focus on the people layer. &lsquo;Do people share information amidst themselves to harm each other or lie to each other or neither?&rsquo; seems to be its premise. On the other end of the spectrum, that use the Information Ecosystem as a framework seems to be more of a focus on the Information layer.</p>
+<h2 id="is-it-useful-though">Is it useful, though?</h2>
+<p>So this two layer model puts into context many of the solutions and also other frameworks. But just because a model captures all the aspects of a problem it doesn&rsquo;t mean it needs to be useful to solve it! (See the wonderful Jorge Luis Borges story [2]) Is this too complex of a model to consider for the problem or is it too simple or is it the right amount of complex? I think the answer to this question can be found only if the framework is actually used to research the problem and see if it can help in solutioning. I have seen some literature that effectively use multi layered models for other problems [3]. I am hoping it will be useful here too&hellip; finger crossed.</p>
+<h2 id="references">References</h2>
+<p>[1] C. Wardle and H. Derakhshan, “INFORMATION DISORDER : Toward an interdisciplinary framework for research and policy making Information Disorder Toward an interdisciplinary framework for research and policymaking,” 2017.</p>
+<p>[2] Borges, Jorge Luis. &ldquo;On the exactitude of science. Collected Fictions.&rdquo; <em>Translated by Andrew Hurley. New York: Penguin</em> (1998): 325.</p>
+<p>[3] Poledna, Sebastian, José Luis Molina-Borboa, Serafín Martínez-Jaramillo, Marco Van Der Leij, and Stefan Thurner. &ldquo;The multi-layer network nature of systemic risk and its implications for the costs of financial crises.&rdquo; <em>Journal of Financial Stability</em> 20 (2015): 70-81.</p>
+]]></description>
+      
+    </item>
+    
+    <item>
+      
+      <title>Network Dynamics framework for Social Network problems</title>
+      
+      
+      <link>https://venkiphy6.github.io/writings/00_1_network_dyn/</link>
+      <guid>https://venkiphy6.github.io/writings/00_1_network_dyn/</guid>
+      
+      
+      <pubDate>Sun, 20 Dec 2020 13:52:44 -0600</pubDate>
+      
+      
+      
+      <description><![CDATA[<p><em>Note: You may notice that this post is dated older than when this website was created. That is because, this is a cross post. I had originally posted this in my old blog <a href="https://venkiisproblematic.blogspot.com/2020/12/network-dynamics-framework-for-social.html">here</a>. I am cross-posting it here in the spirit of collecting everything I have written in one place.</em></p>
+<p>Social Networks are all the rage today (in many senses of that phrase). What we once thought would democratise content creation, is now breaking democratic norms. Given the scale of the problems involved, it is becoming increasingly difficult to think of them. Here I have made a humble attempt to do so and make the case for the framework I have been using. I am only beginning to think deeply about this issue so I might be wrong about this and change my mind later but I believe there is some utility to sharing it anyways - even a wrong clock shows the right time twice a day! So here goes nothing&hellip;</p>
+<p>Network theorists classify network dynamics into 3 categories - dynamics <em>on</em> networks, dynamics <em>of</em> networks and hybrid dynamics [1]. I believe we can use a framework with a similar classification to categorize problems relating to social networks and to keep in mind all the dynamics involved before creating solutions.</p>
+<h2 id="terminology">Terminology</h2>
+<p>Since I have begun by throwing around some jargon, I now feel obliged to explain them before proceeding. Feel free to skip it, if you are already familiar. Networks are representations of systems in which multiple agents interact with each other. Each agent in a network is called a node and their interactions are called edges. These nodes and edges can have certain properties attached to them. Let us consider the case of a social network. In this case, each node would be a person and if these two persons interact with each other in some way (for example &lsquo;Comment&rsquo; on a post) they would be connected by edges. Note that if two persons never interacted with each other then there would be no edge connecting them. Property of a user could be &rsquo;number of posts&rsquo;, &rsquo;number of likes&rsquo;, &lsquo;Joining date on the platform&rsquo; etc.. Property of an interaction could be &lsquo;Retweeted&rsquo;, &lsquo;Commented&rsquo;, &lsquo;Liked&rsquo; etc..</p>
+<p>Network dynamics is the study of how a network changes with time. As aforementioned, there are three distinct ways in which network dynamics can play out:</p>
+<ol>
+<li>Dynamics <em>on</em> networks: This is when the number of nodes or edges doesn&rsquo;t change with time but only their properties change. For instance, imagine studying a network of students in a classroom. Typically new students don&rsquo;t join the class or leave it in the middle of a school year. So the number of students (nodes in the network) remains the same. Also if the class is small enough, everyone is at least acquainted with everyone else. So everyone has interacted with each other and so the number of edges is at a maximum and can&rsquo;t change either. Now, in such a network, the dynamics would only be changes in properties of the students themselves such as grades or in properties of their interactions such as friendships, rivalries etc. over the school year. This is an example of dynamics <em>on</em> a network.</li>
+<li>Dynamics <em>of</em> networks: This is when the number of agents and interactions itself changes over time. For instance, when Facebook started out it connected students in difference colleges and continued to grow. Here we have multiple classrooms now starting to get connected together hence creating a possibility for new students (nodes) entering or old students exiting the network. Also there are now students in the network who possibly don&rsquo;t know each other at all creating opportunities for new interactions (edges) in the networks. The patterns of change in the entry/exit of students and the creation/removal of their interactions here, constitutes dynamics <em>of</em>  the network.</li>
+<li>Hybrid dynamics: This is when both the dynamics occur simultaneously. Imagine the splitting up of a political party into two factions. At the beginning, both the factions would have had the same ideology. But over time, the ideology of some of the members started changing and this change made others in the party rethink their&rsquo;s (dynamics on the network), which eventually lead to its split up (dynamics of networks). Similarly, in a merger of companies with two different cultures, the emergence of a unified culture over time is also an example of hybrid dynamics playing out on a network.</li>
+</ol>
+<h2 id="the-framework">The framework</h2>
+<p>With the terminology now clear, here is what the Network Dynamics framework dictates - When we come across a problem in a social network, it is first important to recognize all the dynamics involved. If we focus only on some but not others, in due time we will be forced to confront them too.</p>
+<p>Let us take the example of Information disorder - the problem of spread of mis/dis/malinformation in an online social network. On the face of it, there is an existing network of people and the property of them acquiring some information alone is changing over time. So, it is tempting to categorize this as an example of dynamics <em>on</em> networks. But one could argue that since bots are created (new nodes in the network) to spread the information, there is dynamics <em>of</em> networks also here. This argument could be further strengthened by the point that mis/dis/malinformation often creates heated arguments wherein people who typically wouldn&rsquo;t interact, will now end up interacting which will cause new edges in the network too. So really, the Information disorder problem starts out as dynamics <em>on</em> networks and then causes dynamics <em>of</em> networks. On the whole, there is Hybrid dynamics involved here.</p>
+<p>But say we indulge our initial temptation to only consider the dynamics <em>on</em> the network which causes Information disorder. Then, our only focus will be to change the way people acquire information. For instance, we would recommend that critical thinking is the only solution. But as Danah Boyd says [2], this can backfire. When there is so much information flowing in, some information just needs to be taken for granted if it comes from trusted sources. When people don&rsquo;t do so and keep resorting to extreme critical thinking, the issue simply persists. But why is there so much information flowing in the first place? Well, that is because there are so many new nodes and edges created by dynamics <em>of</em>  networks and we need solutions for that one. And there it is - we started out by just looking at one dynamics and then end up being forced to confront the others as well.</p>
+<p>The same will happen if we start out looking at only dynamics <em>of</em> the network too. I believe the proposal to break up social media platforms like Facebook [3], stems from looking at dynamics <em>of</em> the network alone. First off, Information Economics suggests that social media platforms will simply tend to reach critical mass and so even from the standpoint of dynamics <em>of</em> the network it doesn&rsquo;t make sense - even if we break it up, one of the broken pieces will simply reach critical mass again and become the new Facebook [4]. Secondly, it simply doesn&rsquo;t address Information disorder at all. Even smaller groups can share mis/dis/malinformation and then by creating engagement through inflammatory posts become big. At the end of the day, it is caused by dynamics <em>on</em> networks. There it is again - start with only some of the dynamics in mind and we will be confronted with the others very soon.</p>
+<h2 id="just-a-problems-framework">Just a problems framework</h2>
+<p>I hope the framework makes sense. But as it stands now, it only gives a perspective on the problem. It is still not talking about how to go about solutioning for each of the three dynamics involved. One obvious perspective on the solutions that it brings out is that, it is very easy to have unintended consequences given the potential for hybrid dynamics to play out. But that is as far as it goes for now, in terms of solutions.</p>
+<p>This is where more work is needed - is it possible to come up with some general recommendations for problems of each of the three dynamics? If one can answer that question, then once all the dynamics are recognized in the problem, policies can take multi pronged approaches to solve for each of the dynamics and a holistic proposal can be built. I am going to continue thinking about this and would love to hear your thoughts on the same.</p>
+<h3 id="references">References</h3>
+<p>[1] Sayama, Hiroki. <em>Introduction to the modeling and analysis of complex systems</em>. Open SUNY Textbooks, 2015.</p>
+<p>[2] “danah boyd: How Critical Thinking and Media Literacy Efforts Are ‘Backfiring’ Today | EdSurge News.” [Online]. Available: <a href="https://www.edsurge.com/news/2018-03-07-danah-boyd-how-critical-thinking-and-media-literacy-efforts-are-backfiring-today">https://www.edsurge.com/news/2018-03-07-danah-boyd-how-critical-thinking-and-media-literacy-efforts-are-backfiring-today</a>. [Accessed: 21-Dec-2020].</p>
+<p>[3] “Opinion | It’s Time to Break Up Facebook - The New York Times.” [Online]. Available: <a href="https://www.nytimes.com/2019/05/09/opinion/sunday/chris-hughes-facebook-zuckerberg.html">https://www.nytimes.com/2019/05/09/opinion/sunday/chris-hughes-facebook-zuckerberg.html</a>. [Accessed: 21-Dec-2020].</p>
+<p>[4] “Breaking Up Facebook Won’t Fix Social Media.” [Online]. Available: <a href="https://hbr.org/2020/09/breaking-up-facebook-wont-fix-social-media">https://hbr.org/2020/09/breaking-up-facebook-wont-fix-social-media</a>. [Accessed: 21-Dec-2020].</p>
 ]]></description>
       
     </item>
