@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Resume & CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,18 +9,135 @@ redirect_from:
 
 {% include base_path %}
 
-<p>
-  <a href="/files/Venkatesh_acadCV.pdf" target="_blank" rel="noopener">
-    Download CV
-  </a>
-</p>
+<style>
+  .cv-viewer {
+    width: 100%;
+  }
 
-<iframe
-  src="/files/Venkatesh_acadCV.pdf"
-  width="100%"
-  height="900px"
-  style="border: none;">
-</iframe>
+  .cv-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    border-bottom: 1px solid var(--global-border-color);
+  }
+
+  .cv-tab {
+    margin: 0;
+    padding: 0.75rem 1rem;
+    border: 0;
+    border-bottom: 3px solid transparent;
+    background: transparent;
+    color: var(--global-text-color);
+    cursor: pointer;
+    font: inherit;
+  }
+
+  .cv-tab[aria-selected="true"] {
+    border-bottom-color: var(--global-link-color);
+    color: var(--global-link-color);
+    font-weight: 700;
+  }
+
+  .cv-viewer__actions {
+    margin: 1rem 0;
+  }
+
+  .cv-viewer iframe {
+    display: block;
+    width: 100%;
+    height: 85vh;
+    min-height: 640px;
+    border: 0;
+  }
+
+  @media (max-width: 768px) {
+    .cv-viewer iframe {
+      height: 75vh;
+      min-height: 500px;
+    }
+  }
+</style>
+
+<div class="cv-viewer">
+  <div class="cv-tabs" role="tablist" aria-label="Choose a document">
+    <button
+      class="cv-tab"
+      id="resume-tab"
+      type="button"
+      role="tab"
+      aria-selected="true"
+      aria-controls="cv-pdf-preview"
+      tabindex="0"
+      data-pdf="/files/Venkatesh_Resume.pdf"
+      data-title="Resume">
+      Resume
+    </button>
+    <button
+      class="cv-tab"
+      id="cv-tab"
+      type="button"
+      role="tab"
+      aria-selected="false"
+      aria-controls="cv-pdf-preview"
+      tabindex="-1"
+      data-pdf="/files/Venkatesh_acadCV.pdf"
+      data-title="CV">
+      CV
+    </button>
+  </div>
+
+  <p class="cv-viewer__actions">
+    <a id="cv-download-link" href="/files/Venkatesh_Resume.pdf" target="_blank" rel="noopener">
+      Download Resume
+    </a>
+  </p>
+
+  <iframe
+    id="cv-pdf-preview"
+    src="/files/Venkatesh_Resume.pdf"
+    title="Resume preview">
+  </iframe>
+</div>
+
+<script>
+  (function () {
+    var tabs = Array.prototype.slice.call(document.querySelectorAll('.cv-tab'));
+    var preview = document.getElementById('cv-pdf-preview');
+    var downloadLink = document.getElementById('cv-download-link');
+
+    function selectTab(tab) {
+      tabs.forEach(function (item) {
+        var selected = item === tab;
+        item.setAttribute('aria-selected', selected ? 'true' : 'false');
+        item.setAttribute('tabindex', selected ? '0' : '-1');
+      });
+
+      preview.src = tab.dataset.pdf;
+      preview.title = tab.dataset.title + ' preview';
+      downloadLink.href = tab.dataset.pdf;
+      downloadLink.textContent = 'Download ' + tab.dataset.title;
+    }
+
+    tabs.forEach(function (tab, index) {
+      tab.addEventListener('click', function () {
+        selectTab(tab);
+      });
+
+      tab.addEventListener('keydown', function (event) {
+        var nextIndex = index;
+        if (event.key === 'ArrowRight') nextIndex = (index + 1) % tabs.length;
+        else if (event.key === 'ArrowLeft') nextIndex = (index - 1 + tabs.length) % tabs.length;
+        else if (event.key === 'Home') nextIndex = 0;
+        else if (event.key === 'End') nextIndex = tabs.length - 1;
+        else return;
+
+        event.preventDefault();
+        tabs[nextIndex].focus();
+        selectTab(tabs[nextIndex]);
+      });
+    });
+  }());
+</script>
 
 <!-- Education
 ======
