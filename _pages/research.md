@@ -10,7 +10,7 @@ author_profile: true
 
 *Bacterial Antimicrobial Resistance (AMR) has been recognized as a global public health problem with 1.27 million worldwide deaths in 2019 attributed to it. To combat the threat of AMR which is forecasted to worsen, policy recommendations have treated antibiotic drug innovation as an integral component. Several policy incentives are currently being explored to “push” and/or “pull” antibiotic drug innovation further with attempts being made to estimate the appropriate size of such incentives. My thesis does a similar exploration of the AMR innovation policy problem with a focus on US public institutions. I use reduced-form, design-based, causal inference techniques to estimate the impacts of existing US policy interventions which impacted the antibiotics market in the recent past.*
 
-On Thursday, April 16, 2026, I pitched my dissertation topic as part of a 3 Minute Thesis competition in my university.
+On Thursday, April 16, 2026, I pitched my dissertation topic to the general public as part of a 3 Minute Thesis competition in my university. This pitch is below.
 
 <iframe
   src="https://player.mux.com/4Ik01RjTl5JTK8aO4uottFuhvNdeKOXx4l1OmqII9sQc?metadata-video-title=3MT_Venkatesh&video-title=3MT_Venkatesh"
