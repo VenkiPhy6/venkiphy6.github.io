@@ -19,6 +19,10 @@ main:
 
   - title: "Teaching"
     url: /teaching/    
+
+
+  - title: "Slides Gallery"
+    url: /documents/
     
   # - title: "Portfolio"
   #   url: /portfolio/
