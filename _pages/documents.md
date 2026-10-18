@@ -164,7 +164,7 @@ permalink: /documents/
       <div class="slides-gallery__grid">
         {% assign other_images = site.static_files | where_exp: "file", "file.path contains 'images/oneoffs/'" | sort: "path" %}
         {% for thumbnail in other_images %}
-          {% unless thumbnail.path contains 'custom-external-thumbnail.jpg' %}
+          {% unless thumbnail.path contains 'custom-external-thumbnail.jpg' or thumbnail.path contains 'cnsd.jpg' %}
             {% assign other_file = thumbnail.path | split: '/' | last | remove: '.jpg' %}
             {% assign pdf_path = other_file | prepend: '/files/oneoffs/' | append: '.pdf' | relative_url | replace: ' ', '%20' %}
             {% assign image_path = thumbnail.path | relative_url | replace: ' ', '%20' %}
@@ -179,6 +179,9 @@ permalink: /documents/
             {% endif %}
           {% endunless %}
         {% endfor %}
+        <a class="slide-image-link" href="{{ '/files/oneoffs/cnsd.pdf' | relative_url }}" target="_blank" rel="noopener" aria-label="Open CNSD PDF in a new tab">
+          <img src="{{ '/images/oneoffs/cnsd.jpg' | relative_url }}" alt="First page of CNSD" loading="lazy" decoding="async">
+        </a>
       </div>
     </section>
   </div>
